@@ -1,0 +1,27 @@
+---
+author: chapter09
+comments: true
+date: 2012-02-24 02:58:13+00:00
+layout: post
+slug: '%e5%8e%9f%e6%9d%a5rpm%e5%8c%85%e5%8f%af%e4%bb%a5%e8%bf%99%e6%a0%b7'
+title: 原来RPM包可以这样
+wordpress_id: 585
+categories:
+- Tech
+tags:
+- Redhat
+- RPM
+---
+
+今天安装两个包，发现相互依赖：
+[code lang="bash"]
+glibc-2.12-1.25.el6.i686.rpm 
+nss-softokn-freebl-3.12.9-3.el6.i686.rpm
+[/code]
+于是看查询[论坛](http://www.ixpub.net/thread-2115820-1-1.html)，发现竟然可以一起装
+[code lang="bash"]
+#rpm -ivh glibc-2.12-1.25.el6.i686.rpm nss-softokn-freebl-3.12.9-3.el6.i686.rpm
+[/code]
+两相依赖，于是合而安装
+我怎么就没有想到这一点？
+我们需要启发式地敲命令

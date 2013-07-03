@@ -1,0 +1,160 @@
+---
+author: chapter09
+comments: true
+date: 2012-02-07 00:20:15+00:00
+layout: post
+slug: milestone-2-%e5%88%b7%e6%9c%ba%e6%8c%87%e5%8d%97
+title: Milestone 2 刷机指南
+wordpress_id: 418
+categories:
+- Tech
+tags:
+- Android
+- Moto Blur
+- ROM
+---
+
+[vc_column_text class="postrule" width="3/4" last="last"]
+
+
+### **概念解释：**
+
+
+
+
+### **[SBF****文件/****底包]:**
+
+
+** **摩托罗拉是锁BootLoader的。
+
+摩托罗拉Android手机的底包是通过MOTO专用的刷机工具RSD Lite刷入Android手机ROM中的一种后缀名为SBF的文件，在刷固件之前刷入手机当中。由于最先刷，而且刷入的是系统底层，因此叫做底包。<!-- more -->
+
+底包中包括boot、system以及各种硬件的驱动程序。一般底包都是摩托罗拉官方发布的。
+
+它的作用很必要，如果刷一些网友制作的修改版固件导致无法进入Android系统，那么还可以通过刷底包的方式进入BootLoader，简单的来讲和HTC的众多Android机型相比，摩托罗拉的Android手机是刷不成砖头的，因为可以靠SBF底包救活。
+
+**[RSD Multi-Flash Tool]:**
+
+RSD是摩托罗拉专用的刷机工具，用来写入底包的。
+
+**[ROM]**
+
+现在各类移动设备，如Windows Mobile手机，Andorid手机，iPhone的ios，黑莓手机都有自己的系统固件，用户在对手机解锁后，可以自行更换或者定义设备的固件。于是有了“刷机”的说法，“刷机”其实是向设备写入新的ROM，即新的固件。
+
+**开始刷机**
+
+两个途径：
+
+
+
+	
+  1. 如果手机本身系统正常，已经root，则可以直接安装Droid2Bootstrap这样的引导工具来进行ROM安装。
+
+	
+  2. 如果手机成了砖，于是要多几个步骤，就是通过RSD写入SBF救活手机，然后再基于底包的系统实施第I步的工作。
+
+
+笔者的情况如下：
+
+手机：欧版Milestone 2 （成砖）
+
+SBF：MILS2_U6_2.4.24_SIGNED_UCAMILESTONE2B1B80E100E.sbf(UK的SBF，实际上Android 2.2 Blur)
+
+目标系统：ICS CM9 nightly（即Android 4.0.3 CyanogenMod 9）
+
+ROM来源：[http://forum.xda-developers.com/showthread.php?t=1374497](http://forum.xda-developers.com/showthread.php?t=1374497)
+
+[/vc_column_text] [vc_column_text width="1/3"]
+
+Step_1.
+
+按住**开机键 + 方向键上**进入bootloader模式，显示黑底白字的如下状态：
+
+
+> Bootloader
+70.12
+Battery OK
+OK to Program
+Connect USB
+Data
+Cable
+
+
+这样手机就进入了RSD刷机模式。联上USB线，打开RSD程序，加载SBF文件
+
+[/vc_column_text] [vc_column_text width="1/3"]
+
+[![](http://haow.ca/wp-content/uploads/2012/02/RSD-300x172.png)](http://haow.ca/wp-content/uploads/2012/02/RSD.png)
+
+[/vc_column_text] [vc_column_text width="1/3" last="last"]  [/vc_column_text] [vc_column_text width="1/3"]
+
+Step_2.
+
+开始刷入SBF文件，可能会重启一次（见RSD程序提示）
+
+最后提示Pass即表示通过，成功。
+
+这时手机可以启动进入系统（这时还不是要升级的目标系统）
+
+[/vc_column_text] [vc_column_text width="1/3" last="last"]
+
+![](http://fmn.rrimg.com/fmn063/20120207/0150/large_K18d_04380002c1d11260.jpg)
+
+[/vc_column_text] [vc_column_text width="2/3" last="last"]
+
+Step_3.
+
+这时把下载的ICS压缩包改名成update.zip放入SD卡
+
+安装引导，你可以用update.zip的方法安装Open Recovery
+
+亦可以Root手机后安装Droid2BootStrap
+
+这样提供手机安装引导
+
+然后关机，再按住开机键 + X键进入引导
+
+同时按住音量增 + 减两个键可以看到选择界面
+
+执行双Wipe，然后选择sdcard:update.zip
+
+开始安装
+
+[/vc_column_text] [vc_column_text width="1/1" last="last"]
+
+运气好的话，这样可以成功
+
+尽管刷出的ICS的确还是alpha版，基本不能用
+
+于是我刷回UK的底包，然后用Moto官方的升级工具升级到了官方UK的2.3.4,
+
+感觉还不错
+
+
+### [2.3.4 Root]
+
+
+2.3.4的Root有点恶心，已经不能通过老式的SuperOneClick来实习Root了，安装z4Root也没用。
+
+不过通过Google还是找到了方法
+
+你的手机如果是最新的2.3.4系统，请使用下面的一键ROOT工具
+
+[特别注意] 开始ROOT之前,请确保:
+
+(1) 您已正确安装了手机驱动;
+(2) 选择了"开启调试模式";
+(3) 选择了"允许安装未知源"
+(4) usb连接选择"Motorola 手机门户"
+
+1.首先下载
+[http://115.com/file/beslkq3r](http://115.com/file/beslkq3r)#
+国行ME722_2.3.4系统_ROOT.rar
+
+然后进该目录运行root.bat 然后按任意键运行
+
+中间手机会自动重启三次，重启后软件继续运行
+
+手机开始重新启动，启动后获得ROOT权限。
+
+[/vc_column_text] 

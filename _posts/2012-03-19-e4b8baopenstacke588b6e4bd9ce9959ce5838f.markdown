@@ -1,0 +1,17 @@
+---
+author: chapter09
+comments: true
+date: 2012-03-19 17:48:50+00:00
+layout: post
+slug: '%e4%b8%baopenstack%e5%88%b6%e4%bd%9c%e9%95%9c%e5%83%8f'
+title: 为OpenStack制作系统镜像
+wordpress_id: 635
+categories:
+- Tech
+tags:
+- Image
+- openstack
+- Qemu
+---
+
+#To-do

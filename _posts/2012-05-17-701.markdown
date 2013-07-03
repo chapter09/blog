@@ -1,0 +1,180 @@
+---
+author: chapter09
+comments: true
+date: 2012-05-17 06:17:07+00:00
+layout: post
+slug: '701'
+title: Some Questions on Path in Python
+wordpress_id: 701
+categories:
+- Tech
+tags:
+- Python
+---
+
+**1. ****PYTHONPATH V.S. sys.path**
+
+export PYTHONPATH="/root/Public/egg_test"
+
+then you will find this path will **appear** in the sys.path
+[code lang="python"]
+>>> print sys.path
+['',
+'/usr/lib64/python2.6/site-packages/xattr-0.6.2-py2.6-linux-x86_64.egg', 
+'/usr/lib/python2.6/site-packages/boto-2.1.1-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/python_gflags-1.3-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/setuptools-0.6c11-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/prettytable-0.5-py2.6.egg',
+'/usr/lib/python2.6/site-packages/argparse-1.2.1-py2.6.egg',
+'/usr/lib/python2.6/site-packages/httplib2-0.7.2-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/euca2ools-1.2-py2.6.egg',
+'/usr/lib/python2.6/site-packages/python_novaclient-2.6.6-py2.6.egg',
+'/usr/lib/python2.6/site-packages/eventlet-0.9.16-py2.6.egg',
+'/usr/lib/python2.6/site-packages/greenlet-0.3.2-py2.6-linux-x86_64.egg',
+'/usr/lib/python2.6/site-packages/WebOb-1.2b2-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/glance-2011.3-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/SQLAlchemy-0.6.9dev-py2.6.egg',
+'/usr/lib/python2.6/site-packages/kombu-1.5.1-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/amqplib-1.0.2-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/anyjson-0.3.1-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/docutils-0.9-py2.6.egg',
+'/root/Public/egg_test',
+'/usr/lib64/python26.zip',
+'/usr/lib64/python2.6',
+'/usr/lib64/python2.6/plat-linux2',
+'/usr/lib64/python2.6/lib-tk',
+'/usr/lib64/python2.6/lib-old',
+'/usr/lib64/python2.6/lib-dynload',
+'/usr/lib64/python2.6/site-packages',
+'/usr/lib64/python2.6/site-packages/gtk-2.0',
+'/usr/lib/python2.6/site-packages',
+'/usr/lib/python2.6/site-packages/setuptools-0.6c11-py2.6.egg-info']
+[/code]<!-- more -->
+But PYTHONPATH is just an environment variable, it changes as the user changes, but the sys.path is a global list containing those paths.
+For more discussion on PYTHONPATH and sys.path, click [http://stackoverflow.com/questions/1893598/pythonpath-vs-sys-path](http://stackoverflow.com/questions/1893598/pythonpath-vs-sys-path)
+
+**2. ****Easyinstall –m or just easyinstall**
+
+Example:
+[code lang="python"]
+[root@hao-dev egg_test]# easy_install docutils-0.8.tar.gz
+[root@hao-dev egg_test]# python
+>>> import docutils
+>>> print docutils.__version__
+0.8
+>>> import sys
+>>> print sys.path
+['',
+'/usr/lib64/python2.6/site-packages/xattr-0.6.2-py2.6-linux-x86_64.egg', 
+'/usr/lib/python2.6/site-packages/boto-2.1.1-py2.6.egg',
+'/usr/lib/python2.6/site-packages/python_gflags-1.3-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/setuptools-0.6c11-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/prettytable-0.5-py2.6.egg',
+'/usr/lib/python2.6/site-packages/argparse-1.2.1-py2.6.egg',
+'/usr/lib/python2.6/site-packages/httplib2-0.7.2-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/euca2ools-1.2-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/python_novaclient-2.6.6-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/eventlet-0.9.16-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/greenlet-0.3.2-py2.6-linux-x86_64.egg', 
+'/usr/lib/python2.6/site-packages/WebOb-1.2b2-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/glance-2011.3-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/SQLAlchemy-0.6.9dev-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/kombu-1.5.1-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/amqplib-1.0.2-py2.6.egg',
+'/usr/lib/python2.6/site-packages/anyjson-0.3.1-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/docutils-0.8-py2.6.egg',
+'/usr/lib64/python26.zip',
+'/usr/lib64/python2.6',
+'/usr/lib64/python2.6/plat-linux2',
+'/usr/lib64/python2.6/lib-tk',
+'/usr/lib64/python2.6/lib-old',
+'/usr/lib64/python2.6/lib-dynload',
+'/usr/lib64/python2.6/site-packages',
+'/usr/lib64/python2.6/site-packages/gtk-2.0',
+'/usr/lib/python2.6/site-packages',
+'/usr/lib/python2.6/site-packages/setuptools-0.6c11-py2.6.egg-info']
+[/code]
+Then,
+[code lang="python"]
+[root@hao-dev egg_test]# easy_install docutils-0.9.tar.gz
+[root@hao-dev egg_test]# python
+>>> import docutils
+>>> print docutils.__version__
+0.9
+>>> import sys
+>>> print sys.path
+['',
+'/usr/lib64/python2.6/site-packages/xattr-0.6.2-py2.6-linux-x86_64.egg', 
+'/usr/lib/python2.6/site-packages/boto-2.1.1-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/python_gflags-1.3-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/setuptools-0.6c11-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/prettytable-0.5-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/argparse-1.2.1-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/httplib2-0.7.2-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/euca2ools-1.2-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/python_novaclient-2.6.6-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/eventlet-0.9.16-py2.6.egg',
+'/usr/lib/python2.6/site-packages/greenlet-0.3.2-py2.6-linux-x86_64.egg', 
+'/usr/lib/python2.6/site-packages/WebOb-1.2b2-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/glance-2011.3-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/SQLAlchemy-0.6.9dev-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/kombu-1.5.1-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/amqplib-1.0.2-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/anyjson-0.3.1-py2.6.egg', 
+'/usr/lib/python2.6/site-packages/docutils-0.9-py2.6.egg',
+'/usr/lib64/python26.zip',
+'/usr/lib64/python2.6',
+'/usr/lib64/python2.6/plat-linux2',
+'/usr/lib64/python2.6/lib-tk',
+'/usr/lib64/python2.6/lib-old',
+'/usr/lib64/python2.6/lib-dynload',
+'/usr/lib64/python2.6/site-packages',
+'/usr/lib64/python2.6/site-packages/gtk-2.0',
+'/usr/lib/python2.6/site-packages',
+'/usr/lib/python2.6/site-packages/setuptools-0.6c11-py2.6.egg-info']
+[/code]
+Actually, if we just use easyinstall without –m, the sys.path will only record one path, which means the new record will cover the old one.
+**3. ****Installation on Python2.6 and Python3.0**
+Python in different version has different sys.path:
+[code lang="python"]
+[root@gate-xen ~]# python3
+>>> import sys
+>>> sys.path
+['', 
+'/usr/local/lib/python32.zip', 
+'/usr/local/lib/python3.2', 
+'/usr/local/lib/python3.2/plat-linux2', 
+'/usr/local/lib/python3.2/lib-dynload', 
+'/usr/local/lib/python3.2/site-packages']
+[root@gate-xen ~]# python2.4
+>>> import sys
+>>> print sys.path
+['', 
+'/usr/lib64/python24.zip', 
+'/usr/lib64/python2.4', 
+'/usr/lib64/python2.4/plat-linux2', 
+'/usr/lib64/python2.4/lib-tk', 
+'/usr/lib64/python2.4/lib-dynload', 
+'/usr/lib64/python2.4/site-packages', 
+'/usr/lib64/python2.4/site-packages/Numeric', 
+'/usr/lib64/python2.4/site-packages/gtk-2.0', 
+'/usr/lib/python2.4/site-packages']
+[/code]
+But, if I set PYTHONPATH a value, both sys.path in Python3 and Python2.4 will add in this value.
+
+For easyinstall tool, as the Python3 doesn’t support this tool.
+
+To use this tool, after get the source code, we need to take steps below:
+[code lang="python"]
+python2.4 setup.py install
+python2.5 setup.py install
+[/code]
+and create links according the verison:
+[code lang="python"]
+ln -s /opt/python2.X/bin/easy_install-2.X /usr/bin/easy_install2.X
+[/code]
+After that we could use easy_install-2.x to install python packages respectively.
+
+For detailed information on usages of multiple versions Python, please click :
+
+[http://achinghead.com/installing-multiple-versions-python.html](http://achinghead.com/installing-multiple-versions-python.html)

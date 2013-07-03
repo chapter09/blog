@@ -1,0 +1,55 @@
+---
+author: chapter09
+comments: true
+date: 2011-10-20 04:38:22+00:00
+layout: post
+slug: ubuntu11-10-%e5%ae%89%e8%a3%85jpcap
+title: Ubuntu11.10 安装Jpcap
+wordpress_id: 205
+categories:
+- Tech
+tags:
+- jpcap
+- Linux
+- Ubuntu
+---
+
+安装deb包出现错误，意思是和某些模块冲突：
+
+An unhandlable error occured There seems to be a programming error in aptdaemon, the software that allows y ou to install/remove software and to perform other package management related tasks.
+
+<!-- more -->
+
+Traceback (most recent call last):
+
+File "/usr/lib/python2.7/dist-packages/aptdaemon/worker.py", line 968, in si mulate
+
+trans.unauthenticated = self._simulate_helper(trans)
+
+File "/usr/lib/python2.7/dist-packages/aptdaemon/worker.py", line 1028, in _ simulate_helper
+
+deb = self.install_file(trans, simulate=True, **trans.kwargs)
+
+File "/usr/lib/python2.7/dist-packages/aptdaemon/worker.py", line 532, in in stall_file
+
+deb = self._check_deb_file(path, force, trans.uid)
+
+File "/usr/lib/python2.7/dist-packages/aptdaemon/worker.py", line 1147, in _ check_deb_file "n%s" % (path, stdout))
+
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe5 in position 57: ordin al not in range(128)
+
+于是从源码安装，按照Jpcap网站给出的提示，很简单的make
+
+发现缺少了jni.h和pcap.h的文件存在
+
+其实是需要修改Makefile，同时我刷新了libpcap0.8-dev后于是编译成功。
+
+发现很多包缺少时，一定需要装dev版。。。我实际上libpcap0.8已经装过了。
+
+另外在编译完程序后，需要通过root权限运行，linux不允许普通用户进行网络方面的操作。因此再使用Jpcap时，一开始会发现得不到DeviceList
+
+
+
+
+
+

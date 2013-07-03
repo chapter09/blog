@@ -1,0 +1,246 @@
+---
+author: chapter09
+comments: true
+date: 2011-10-26 08:01:38+00:00
+layout: post
+slug: zz50%e5%a4%9a%e4%b8%aa%e5%bc%80%e6%ba%90pdf%e9%98%85%e8%af%bb%e7%bc%96%e8%be%91%e5%b7%a5%e5%85%b7%e6%b1%87%e6%80%bb
+title: '[zz]50多个开源PDF阅读编辑工具汇总'
+wordpress_id: 227
+categories:
+- Tech
+tags:
+- OpenSource
+---
+
+### PDF Editing & Creation: 50+ open source/free alternatives to Adobe Acrobat
+
+
+
+
+### <!-- more -->
+
+
+
+
+
+
+文章[来源](http://www.duzengqiang.com/blog/article.asp?id=657)于这里, [版权](http://latex.yo2.cn/articles/about-copyright.html)归原作者所有.
+
+Adobe Acrobat is expensive, but that doesn’t mean you have to live a life without portable documents. What many people don’t realize is that [PDF](http://latex.yo2.cn/articles/category/pdf%e7%9b%b8%e5%85%b3) is a [Federal Information Processing Standard](http://en.wikipedia.org/wiki/Federal_Information_Processing_Standard), which means the specifications behind the format are widely published. Numerous developers take advantage of this fact and create programs that offer effective alternatives to Acrobat. Check out our list of these programs and take advantage of these tools that are full of some of the best PDF features and functions.
+
+**Downloadable PDF Creators**
+
+These simply and emminently usable programs will allow you to quickly create your own PDFs.
+
+
+
+	
+  1. **[CutePDF](http://www.cutepdf.com/)**: Create a PDF file from almost any printable document. CutePDF has an open SDK and doesn’t bog down their software with popups or watermarks.
+
+	
+  2. **[PDF reDirect](http://www.exp-systems.com/)**: The freeware PDF reDirect offers loads of robust features, including PDF creation, previews, encryption, and more, that go a long way to replacing Adobe.
+
+	
+  3. **[doPDF](http://www.dopdf.com/)**: Install doPDF as a virtual PDF printer driver, and you can create PDFs using your printer function.
+
+	
+  4. **[CC (Free) PDF Converter](http://www.cogniview.com/cc-pdf-converter.php)**: This printer driver can be used to create a PDF file from any printable Windows application.
+
+	
+  5. **[PDFCreator](http://www.pdfforge.org/products/pdfcreator)**: Use PDFCreator to create PDFs from any printable program, as well as encrypt and autosave files based on predefined terms.
+
+	
+  6. **[Open Office](http://www.openoffice.org/dev_docs/features/2.0/)**: Open Office has a PDF export feature that allows you to define compression levels as well as handle thumbnails and hyperlinks.
+
+	
+  7. **[Scribus](http://www.scribus.net/)**: Use this desktop publishing program to create interactive PDF presentations and forms.
+
+	
+  8. **[HylaFAX](http://www.ifax.com/products/hylafax/hylafax_open_source_edition.html)**: HylaFAX is an open source fax server that can be configured to deliver in PDF.
+
+
+**Online and Desktop PDF Editors**
+
+PDF manipulation is easy and free with these tools.
+
+
+
+	
+  1. **[PDFescape](http://www.pdfescape.com/)**: This online PDF solution is a reader, editor, form filler, and form designer. All you need to use it is a JavaScript enabled web browser.
+
+	
+  2. **[PDFedit](http://pdfedit.petricek.net/pdfedit.index_e)**: Use this editor to manipulate PDF documents, with an option to do your own scripting and plugins.
+
+	
+  3. **[Multivalent browser](http://multivalent.sourceforge.net/)**: Although not a pure editor, this browser allows for minimal editing in the form of creating annotations. In addition, it includes several command-line PDF specific tools which allow for things like merging, compression, and extraction.
+
+
+**Viewers**
+
+If you need a simple way to open and read PDFs, look no further than these lightweight viewers.
+
+
+
+	
+  1. **[Sumatra PDF](http://blog.kowalczyk.info/software/sumatrapdf/)**: This Windows PDF viewer is light and minimalistic. It’s even designed for portable use, so you can run it from a USB drive.
+
+	
+  2. **[PalmPDF](http://www.metaviewsoft.de/en/Software/PalmOS/Freeware/PalmPDF/index.html)**: Use this PDF viewer for Palm OS devices.
+
+	
+  3. **[Evince](http://www.gnome.org/projects/evince/)**: Gnome users can take advantage of Evince, a document viewer that supports both PDF and PostScript documents.
+
+	
+  4. **[Preview](http://www.apple.com/macosx/features/300.html#preview)**: Mac OS X comes with Preview, an application that displays images and PDFs.
+
+	
+  5. **[ePDFView](http://trac.emma-soft.com/epdfview/)**: This lightweight PDF viewer uses the GTK+ and Poppler libraries.
+
+	
+  6. **[Okular](http://okular.kde.org/formats.php)**: This document viewer for KDE 4 supports PDF, PostScript, and lots more.
+
+	
+  7. **[Xpdf](http://www.foolabs.com/xpdf/)**: Xpdf, available for nearly any Unix OS, is a PDF viewer that allows you to read encrypted PDFs, extract images, and more.
+
+
+**Compatability**
+
+Make the [PDF](http://latex.yo2.cn/articles/category/pdf%e7%9b%b8%e5%85%b3) format compatible with HTML, XML, non-proprietary formats, and more using these tools.
+
+
+
+	
+  1. **[PythonPoint](http://www.reportlab.org/python_point.html)**: Use this tool to create presentations that can be opened with any PDF viewer.
+
+	
+  2. **[AxPoint](http://axpoint.axkit.org/)**: Create PDF slideshows from XML using AxPoint.
+
+	
+  3. **[DocBook XSL Stylesheets](http://directory.fsf.org/project/DocBookXSLStylesheets/)**: Create and store documents in a presentation-neutral form that can be published in HTML, PDF, and more.
+
+	
+  4. **[Unipage](http://unipage.org/)**: Unipage turns any page, online or local, into an HTML file that can function as a portable document. Although Unipage is currently only available on Windows, additional OS and browser support is coming soon.
+
+	
+  5. **[EasyPDF SDK](http://www.pdfonline.com/easypdf/sdk/index.htm?src=banner_planetpdf)**: The easyPDF development toolkit helps you create PDF functions with minimum effort and very little code.
+
+	
+  6. **[KWord](http://www.koffice.org/kword/)**: KWord is a word processor for KOffice, and it offers a PDF import function.
+
+	
+  7. **[PDFlib](http://www.pdflib.com/products/)**: The PDFlib development tool offers a way for developers to PDF-enable software and create PDFs on their own server.
+
+	
+  8. **[Ghostscript](http://pages.cs.wisc.edu/~ghost/)**: The Ghostscript software can interpret PostScript language and PDFs interchangeably and convert them to faster formats.
+
+	
+  9. **[Mozilla Archive Format](https://addons.mozilla.org/extensions/moreinfo.php?id=212&application=firefox)**: This extension can save pages in MHTML format, which creates a portable document of the page.
+
+	
+  10. **[Pstoedit](http://www.pstoedit.net/pstoedit)**: This program converts PostScript or PDF files to other output formats such as WOMF/EMF, PDF, DXF, CGM, and HTML.
+
+
+**Command Line Manipulation and Editing**
+
+These editors won’t be used on your desktop as you would use Acrobat or any other [PDF](http://latex.yo2.cn/articles/category/pdf%e7%9b%b8%e5%85%b3)application. Rather, you can use these offerings to build into your own apps so that you can automate the PDF creation and manipulation process.
+
+
+
+	
+  1. **[PJ](http://www.etymon.com/epub.html)**: Etymon’s PJ, the parent of PJX, is one of the earliest open source attempts to make PDF’s more accessible. PJ is a class library in Java that allows parsing, manipulation, and generation of PDF files.
+
+	
+  2. **[PDFlib](http://www.pdflib.com/products/)**: The PDFlib development tool offers a way for developers to PDF-enable software and create PDFs on their own server.
+
+	
+  3. **[mbtPdfAsm](http://thierry.schmit.free.fr/spip/spip.php?article15)**: The mbtPdfAsm application is an in line tool for assembling and merging PDF files, extracting information from them, and updating PDF metadata.
+
+	
+  4. **[PDF::API2](http://pdfapi2.sourceforge.net/)**: PDF::API2 offers a “next generation” tool for creating and manipulating PDF files.
+
+	
+  5. **[PDF Clown](http://www.stefanochizzolini.it/en/projects/clown/)**: The PDF Clown is an open source library which includes capabilities such as document splitting, merging, and more.
+
+	
+  6. **[iText](http://www.lowagie.com/iText/)**: iText is an ideal library for developers seeking to automate PDF creation and manipulation.
+
+	
+  7. **[FreeDist](http://home.hccnet.nl/s.vd.palen/)**: This freeware distiller can convert files into PDF as well as compose multiple files to one PDF in a specific order.
+
+	
+  8. **[Pdftk](http://www.accesspdf.com/pdftk/)**: This toolkit offers command-line functionality for lots of features, like merging, form filling, and encryption.
+
+
+**PDF Creation Libraries, Scripts and Systems**
+
+If you’re a developer and you want to move beyond the capabilities of a desktop PDF creator, these libraries, scripts, and systems will help you incorporate [PDF](http://latex.yo2.cn/articles/category/pdf%e7%9b%b8%e5%85%b3) creation into your own applications.
+
+
+
+	
+  1. **[CUPS](http://www.cups.org/)**: The Common Unix Printing System (CUPS) is primarily a system for enabling a computer to act as a print server, but which has a robust feature that allows PDF exporting.
+
+	
+  2. **[Lout](http://lout.sourceforge.net/)**: This document formatting system, the implementation of which is referred to as Basser Lout, can be outputted in PDF, plain text, and more.
+
+	
+  3. **[Indexed PDF Creator](http://hoopajoo.net/projects/ipdf.html)**: This tool automatically generates a keyword index for PDF documents which allows readers to quickly locate specific words and phrases in a document.
+
+	
+  4. **[Cairo](http://cairographics.org/)**: Cairo, a vector drawing library, allows creation of PDF documents.
+
+	
+  5. **[LyX](http://www.lyx.org/)**: This document processor which is particularly popular amongst the scientific community offers PDF exporting.
+
+	
+  6. **[Fly2PDF](http://www.pdfforge.org/products/fly2pdf)**: You can create PDF documents directly using this ActiveX library.
+
+	
+  7. **[PDF Creator Pilot](http://www.colorpilot.com/pdflibrary.html)**: Use this library to create PDF files from popular programming languages like Visual Basic and ASP.
+
+	
+  8. **[XeTex](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=xetex)**: XeTex is a typesetting program that offers PDF creation.
+
+	
+  9. **[FPDF](http://www.fpdf.org/)**: Use FPDF to create PDF files with PHP. You don’t need PDFlib to use it.
+
+	
+  10. **[Inkscape](http://www.inkscape.org/)**: Inkscape is an open source vector drawing program that offers support for PDF exports.
+
+	
+  11. **[PdfTeX](http://www.tug.org/applications/pdftex/)**: This typesetting program can output PDF files and allows a number of features like links and tables of contents.
+
+	
+  12. **[ReportLab](http://www.reportlab.org/rl_toolkit.html)**: This library offers a PDF generation solution specifically suited for web publishers, developers, and creative designers who are looking for a high-speed automated PDF generation.
+
+	
+  13. **[Tiny RML2PDF](http://openreport.org/index.py/trml2pdf)**: You can create a PDF document from RML with this tool, giving it the appearance of a printed document.
+
+	
+  14. **[HTML_ToPDF](http://www.rustyparts.com/pdf.php)**: This PHP class allows users to convert HTML to PDF files quickly and easily.
+
+
+**Other Tools**
+
+Get even more function from your PDFs using these tools.
+
+
+
+	
+  1. **[Skim](http://skim-app.sourceforge.net/index.html)**: For OS X, Skim is a PDF reader with features that allow you to take notes and highlight on any PDF file.
+
+	
+  2. **[Notepad Generator](http://www.botsko.net/Demos/notepad_generator/)**: This tool makes it easy to create a PDF notepad, and it’s fully customizable.
+
+	
+  3. **[PDFmap](http://www.librelogiciel.com/software/PDFMap/action_Presentation)**: PDFmap offers automated generation of interactive PDF maps.
+
+
+With these tools, you should be able to go way beyond Adobe. Even better, you can do it for free and have the option to customize your experience using their open source status.
+
+From: http://www.duzengqiang.com/blog/article.asp?id=657
+
+
+
+
+

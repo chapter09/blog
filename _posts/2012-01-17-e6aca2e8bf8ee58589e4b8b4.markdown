@@ -1,0 +1,19 @@
+---
+author: chapter09
+comments: true
+date: 2012-01-17 20:01:53+00:00
+layout: post
+slug: '%e6%ac%a2%e8%bf%8e%e5%85%89%e4%b8%b4'
+title: 欢迎光临
+wordpress_id: 372
+categories:
+- Emotion
+---
+
+不管黑夜白天
+你的足迹
+发现了我<!-- more -->
+
+青苔有梦
+门帘流转
+蒹葭有意

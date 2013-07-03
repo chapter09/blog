@@ -1,0 +1,30 @@
+---
+author: chapter09
+comments: true
+date: 2011-10-16 04:42:32+00:00
+layout: post
+slug: gmail%e7%9a%84%e5%ae%9e%e9%aa%8c%e5%ae%a4
+title: Gmail的实验室
+wordpress_id: 201
+categories:
+- Tech
+tags:
+- Gmail
+- Google
+---
+
+Gmail的确是个好东西
+
+其实验室里也提供很多有意思的功能扩展
+
+<!-- more -->
+
+比如：
+
+[![](http://haow.ca/wp-content/uploads/2011/10/Screenshot-1.png)](http://haow.ca/wp-content/uploads/2011/10/Screenshot-1.png)
+
+这个功能开启后，能够在Chrome的Tab上出现新邮件的数量
+
+我个人比较喜欢把Gmail的页面Pin到Chrome上，于是这样就很清晰
+
+关键是这一功能是怎么实现的，有待考察，类似于Chrome插件的开发？不知道FF支不支持这一功能扩展。
