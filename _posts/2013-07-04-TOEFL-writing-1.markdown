@@ -3,7 +3,7 @@ author: wanghao
 comments: true
 date: 2013-07-04 14:43:32+00:00
 layout: post
-title: [TOEFL W] The most important thing you want to change about your hometown
+title: TOEFL W The most important thing you want to change about your hometown
 categories:
 - TOEFL
 ---
