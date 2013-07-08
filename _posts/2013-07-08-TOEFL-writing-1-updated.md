@@ -1,14 +1,12 @@
 ---
 author: wanghao
 comments: true
-date: 2013-07-08 23:23:32+00:00
+date: 2013-07-08 20:23:32+00:00
 layout: post
-title: [Updated] The most important thing you want to change about your hometown
+title: The most important thing you want to change about your hometown [updated] 
 categories:
 - TOEFL Writing
 ---
-
-###The most important thing you want to change about your hometown
 
 Everyone cherishes his/her memory of growing up in his/her own hometown, where is an unique place deep in our mind. if we got a chance to make it better, absolutely we will seize it. For my hometown, a small but beautiful city lay at the Lake Dongting, she is experiencing the hardest ever environment problems nowadays, I am looking forward to the changes happen in her environment.
 
