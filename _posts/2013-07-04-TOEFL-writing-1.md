@@ -8,8 +8,6 @@ categories:
 - TOEFL Writing
 ---
 
-###The most important thing you want to change about your hometown
-
 Everyone cherishes his/her memory of growing up in his/her own hometown, where is an unique place deep in our mind. if we got a chance to make it better, absolutely we will seize it. For my hometown, a small but beautiful city lay at the Lake Dongting, she is experiencing the hardest ever environment problems nowadays, I am looking forward to the changes happen in her environment.
 
 One of the serious environment problem is water pollution, as there is a paper mill pouring polluted water into the Lake Dongting directly, you could find plenty number of dead fishes body mixed with white bubbles floating on large area of the Lake. To change this, high-efficiency water purification equipments should be installed to the paper mill, and more eco-friendly production process regulations need to be promulgated to rule mills like paper mill. Only in this way could clear and beautiful lake return to my hometown.
