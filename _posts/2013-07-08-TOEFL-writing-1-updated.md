@@ -8,9 +8,13 @@ categories:
 - TOEFL Writing
 ---
 
-Everyone cherishes his/her memory of growing up in his/her own hometown, where is an unique place deep in our mind. if we got a chance to make it better, absolutely we will seize it. For my hometown, a small but beautiful city lay at the Lake Dongting, she is experiencing the hardest ever environment problems nowadays, I am looking forward to the changes happen in her environment.
+Hometown is always the place where precious memories are recorded. Everyone are willing to devote themselves to making their hometown a better place. My hometown is a small but elegant city lying beside the Lake Dongting, but the booming industry and upheaval of life style have driven its beauty away. More measures should be taken to change this situation.
 
-One of the serious environment problem is water pollution, as there is a paper mill pouring polluted water into the Lake Dongting directly, you could find plenty number of dead fishes body mixed with white bubbles floating on large area of the Lake. To change this, high-efficiency water purification equipments should be installed to the paper mill, and more eco-friendly production process regulations need to be promulgated to rule mills like paper mill. Only in this way could clear and beautiful lake return to my hometown.
+The primary serious problem is water pollution. A paper mill is pouring waste water with poisonous chemicals into the Lake directly, numerous dead fish bodies mixed with white and yellow bubbles are floating on large area of the Lake. To change this, the following strategies should be adopted: 1. The following High-efficiency water purification equipments should be forced to be installed to the paper mill; 2.More eco-friendly industry standards need to be promulgated; 3. The government ought to found a dedicated office to monitor, supervise and punish. Only in this way could a clear and beautiful lake return to my hometown.
 
-When you have clear water, you may wonder to breath fresh air. With people's income getting higher and higher, more and more cars running on the streets of my small hometown. While people enjoys driving in their cosy car, they 'enjoys' the streets that could not hold another car. crowd cars do not only bring in more waiting time, but also produce smoke into the air. But people can not live without air, but the air is no longer fresh any more, you are unwilling to breath, but you have to. To change this, I hope that more bicycles will be introduced into people's life, which actually represents a style of green lifestyle. And it's acceptable to ride to some place in this small city. 
+Another bothering problem is air pollution. People enjoys the wealth brought by the prosperity of economics. cars are roaring on the narrow streets, while riding bicycles are regarded as an out life style. 
+
+It just takes no more than an hour to drive around the whole city, riding i
+
+ crowd cars do not only bring in more waiting time, but also produce smoke into the air. But people can not live without air, but the air is no longer fresh any more, you are unwilling to breath, but you have to. To change this, I hope that more bicycles will be introduced into people's life, which actually represents a style of green lifestyle. And it's acceptable to ride to some place in this small city. 
 
