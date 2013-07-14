@@ -6,7 +6,7 @@ comments: false
 ---
 {% include JB/setup %}
 
-<p><img src="img/avatar.jpg" width="200px" title="Me" align="left" border="30px"/></p>
+<p><img src="img/avatar.jpg" width="150px" title="Me" align="left" border="30px"/></p>
 
 
 魔都一学僧
