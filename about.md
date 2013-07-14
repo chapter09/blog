@@ -14,4 +14,7 @@ comments: false
 
 潜水于SHLUG，douban，YSSY，Twitter，但志犹在。。。
 
-> 圣人必有过去，罪人必有将来——奥斯卡·王尔德
+> 圣人必有过去，罪人必有将来——奥斯卡·王尔德 
+
+![Mou icon](img/me.jpg)
+
