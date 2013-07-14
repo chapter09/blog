@@ -1,9 +1,20 @@
 ---
 layout: page
-title: "About"
+title: "About Me"
 description: ""
 comments: false
 ---
 {% include JB/setup %}
 
-<p><img src="img/avatar.jpg" width="200px" title="Me" align="middle"/></p>
+<p><img src="img/avatar.jpg" width="200px" title="Me" align="left"/></p>
+
+
+魔都一学僧
+
+时有混沌，时有清醒
+
+傻乐于世，好交趣友
+
+潜水于SHLUG，douban，YSSY，Twitter，但志犹在。。。
+
+> 圣人必有过去，罪人必有将来——奥斯卡·王尔德
