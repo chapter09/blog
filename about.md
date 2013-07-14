@@ -6,4 +6,4 @@ comments: false
 ---
 {% include JB/setup %}
 
-![Mou icon](img/avatar.jpg)
+<p><img src="img/avatar.jpg" width="200px" title="Me" align="middle"/></p>
