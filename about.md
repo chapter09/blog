@@ -5,3 +5,5 @@ description: ""
 comments: false
 ---
 {% include JB/setup %}
+
+![Mou icon](img/avatar.jpg)
