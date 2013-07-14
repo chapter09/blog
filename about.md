@@ -12,7 +12,7 @@ comments: false
 
 傻乐于世，好交趣友
 
-潜水于SHLUG，douban，YSSY，Twitter，但志犹在。。。
+潜水于SHLUG，douban，YSSY，Twitter，但志犹在
 
 > 圣人必有过去，罪人必有将来——奥斯卡·王尔德 
 
