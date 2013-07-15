@@ -11,13 +11,9 @@ tags:
 - Vim
 ---
 
-[[回复本文](https://bbs.sjtu.edu.cn/bbspst?board=GNULinux&file=M.1315705202.A)][[原帖](https://bbs.sjtu.edu.cn/bbscon?board=GNULinux&file=M.1315705202.A)]
-
 发信人: [wanghaoeight](https://bbs.sjtu.edu.cn/bbsqry?userid=wanghaoeight)(阿弥喜欢陀佛), 信区: GNULinux
 
 标  题: 关于Vim的一个纠结问题
-
-<!-- more -->
 
 发信站: 饮水思源 (2011年09月11日09:40:02 星期天)
 
@@ -45,22 +41,5 @@ tags:
 	endfunction
 	inoremap <CR> <C-R>=call(function("MyEnter"),[])<CR> 
 	
-【 在 prompt ([光明作使@嘉7如梦 ~]$ ) 的大作中提到: 】
-
-: 自动可以写vimscript解决，我在研究中。。 
-
-: 【 在 KiddingKitte (KiddingKitten) 的大作中提到: 】 
-
-: : 人家要的是自动的吧。 
-
-
-
--- We reject: kings, presidents and voting We believe in: rough consensus and running code 
-
-我有两个好朋友，一个是[RTFM](https://bbs.sjtu.edu.cn/bbsqry?userid=RTFM)，另一个是[STFW](https://bbs.sjtu.edu.cn/bbsqry?userid=STFW) "
-
-我还要不断地学习" 禁可乐，禁烧烤 
-
-Rawbl Yvsr naq Unccl Unpxvat (by rot13)
 
 
