@@ -3,9 +3,7 @@ author: chapter09
 comments: true
 date: 2011-09-11 15:53:56+00:00
 layout: post
-slug: '%e5%85%b3%e4%ba%8evim%e7%9a%84%e4%b8%80%e4%b8%aa%e7%ba%a0%e7%bb%93%e9%97%ae%e9%a2%98solution-by-prompt'
 title: 关于Vim的一个纠结问题[solution by prompt]
-wordpress_id: 188
 categories:
 - Emotion
 tags:
