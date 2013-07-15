@@ -3,9 +3,7 @@ author: wanghao
 comments: true
 date: 2013-06-15 14:43:32+00:00
 layout: post
-slug: toefl-6-15-%e6%80%bb%e7%bb%93
 title: TOEFL 6.15 总结
-wordpress_id: 1004
 categories:
 - TOEFL
 ---
