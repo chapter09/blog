@@ -41,4 +41,4 @@ categories:
 
 
 
-[![](http://haow.ca/wp-content/uploads/2011/08/picplz-2011-08-11-19.48.32-300x168.jpg)](http://haow.ca/wp-content/uploads/2011/08/picplz-2011-08-11-19.48.32.jpg)
+[![](/img/uploads/2011/08/picplz-2011-08-11-19.48.32-300x168.jpg)](/img/uploads/2011/08/picplz-2011-08-11-19.48.32.jpg)
