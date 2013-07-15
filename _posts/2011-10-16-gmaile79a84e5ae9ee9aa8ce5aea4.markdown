@@ -17,7 +17,7 @@ Gmail的确是个好东西
 
 比如：
 
-[![](../img/uploads/2011/10/Screenshot-1.png)](../img/uploads/2011/10/Screenshot-1.png)
+[![](/img/uploads/2011/10/Screenshot-1.png)](/img/uploads/2011/10/Screenshot-1.png)
 
 这个功能开启后，能够在Chrome的Tab上出现新邮件的数量
 
