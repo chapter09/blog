@@ -3,7 +3,7 @@ author: chapter09
 comments: true
 date: 2011-08-08 01:16:47+00:00
 layout: post
-title: '[zz] Android内存管理机制之一：lowmemory killer'
+title: [zz] Android内存管理机制之一：lowmemory killer
 categories:
 - Tech
 tags:
