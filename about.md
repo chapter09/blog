@@ -17,6 +17,7 @@ comments: false
 > 圣人必有过去，罪人必有将来——奥斯卡·王尔德 
 
 <a class="btn btn-primary">Python党</a>
+<a class="btn btn-info">果粉G粉</a>
 
 ![Mou icon](img/me.jpg)
 
