@@ -18,6 +18,7 @@ comments: false
 
 <a class="btn btn-primary">Python党</a>
 <a class="btn btn-info">果粉G粉</a>
+[CV](WangHao_CV.pdf)
 
 ![Mou icon](img/me.jpg)
 
