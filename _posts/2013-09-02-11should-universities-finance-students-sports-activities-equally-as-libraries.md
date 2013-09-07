@@ -8,7 +8,7 @@ tags: []
 {% include JB/setup %}
 
 
-In most people's perspective, universities are where knowledge is reproduced and spread. Besides, education and research projects rely on libraries, which offer tremendous amount of books and materials. However, compared with offering academical resources for the brains, caring for health of the bodies should also be taken into consideration seriously. Thus, students' sports activities and libraries should be put to the each side of a scale.
+In most people's perspective, universities are where knowledge is reproduced and spread. Besides, education and research projects rely on libraries, which offer tremendous amount of books and materials. However, compared with offering academic resources for the brains, caring for health of the bodies should also be taken into consideration seriously. Thus, students' sports activities and libraries should be put to the each side of a scale.
 
 "To work healthily for motherland for 50 years" is a motivating slogan from a top university in China. It advocates an idea that students should not only dig deep in their major, but also build their tough body via sports practice. A strong body could defend against possible illnesses, difficulties in students' following life, in result, they could keep high performance to pursuit their success. To achieve this goal, universities need hire more teachers of different sports activities, build various sports equipments and make education plans of sports. Actually, all the investment including human resources, money, and time, will not be less than running libraries. But it's worthy indeed.
 
