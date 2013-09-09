@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[12] xubuntu: ctags and taglist error"
+title: "xubuntu: ctags and taglist error"
 description: ""
 category: 
 tags: []
