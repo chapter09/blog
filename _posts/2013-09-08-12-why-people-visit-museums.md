@@ -22,7 +22,7 @@ tags: []
 
 ####My own writing
 
-People start a trip to a new place on various purposes. Some travel for experiencing different culture, history or art, some for entertainment and relaxing themselves. And a local museum become a good choice for visitors who just set foot on the new land.
+People start a trip to a new place for various purposes. Some travel for experiencing different culture, history and art, some for entertainments and relaxing themselves. Therefore, a local museum becomes a good choice for visitors who `just set foot on` the new land.
 
 The museum is a place storing all kinds of records and memories. A walk in a museum help people experience life styles in old times, like how ancient people cook and what they wore. People could always learn much more from those real collections than books or videos. For travelers to Xi'an in Shanxi Province, Shanxi Museum is the destination which can not be missed. It keeps different kinds of arms dating back to Qin Dynasty. What's the most impressive is that some swords are still shining and sharp, though, after thousands years. Besides, terrified and fascinated, when visitors are faced with thousands of Terra-Cotta Warriors, which are from the tomb of the First Emperor of Qin. People could not imagine how prosperous Qin dynasty is only from the TV or books. Actually, museums open a passage to the past, visitors learn and experience the ancient life there. 
 
