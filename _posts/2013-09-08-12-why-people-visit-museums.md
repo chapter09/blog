@@ -22,7 +22,7 @@ tags: []
 
 ####My own writing
 
-'_' underline parts are phrases or words 
+'_' underline parts are phrases or words still with doubts 
 
 People start a trip to a new place for various purposes. Some travel for experiencing different culture, history and art, some for entertainments and relaxing themselves. Therefore, a local museum becomes a good choice for visitors who <u>just set foot on</u> the new land.
 
