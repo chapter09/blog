@@ -5,6 +5,7 @@ date: 2013-07-15 15:24:32+00:00
 layout: post
 title: Django 下拉登陆框
 categories:
+- Python
 tags: [Python]
 ---
 {% include JB/setup %}

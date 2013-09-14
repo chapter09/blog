@@ -2,7 +2,8 @@
 layout: post
 title: "[12] Why people visit museums?"
 description: ""
-category: toefl writing
+category:
+- toefl writing
 tags: []
 ---
 {% include JB/setup %}

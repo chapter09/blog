@@ -2,7 +2,8 @@
 layout: post
 title: "[11]Should universities finance students' sports activities equally as libraries"
 description: ""
-category: toefl writing
+category: 
+- toefl writing
 tags: []
 ---
 {% include JB/setup %}
