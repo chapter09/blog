@@ -2,7 +2,7 @@
 layout: post
 title: "uid vs euid"
 description: ""
-category: 
+category: Linux
 tags: [Linux]
 ---
 {% include JB/setup %}

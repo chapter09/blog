@@ -2,7 +2,7 @@
 layout: post
 title: "xubuntu: ctags and taglist error"
 description: ""
-category: 
+category: Linux
 tags: []
 ---
 {% include JB/setup %}
