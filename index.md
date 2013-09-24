@@ -12,7 +12,7 @@ comments: false
   {% endfor %}
 </ul>-->
 
-<table>
+<table border="0">
     <tbody>
         {% for post in site.posts %}
         <tr>
