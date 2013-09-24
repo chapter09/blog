@@ -9,7 +9,9 @@ categories:
 tags: [Python]
 ---
 {% include JB/setup %}
+[More details](https://github.com/mojombo/jekyll/wiki/liquid-extensions)
 
+{% highlight html %}
 	<ul class="nav pull-right">
 	  <li class="dropdown" id="menuLogin">
 	    <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">
@@ -33,6 +35,6 @@ tags: [Python]
 	<a class="btn btn-primary" href="/auth/account/register">Register</a>
 	</ul>
 	
-
+{% endhighlight %}
 
 ![](/img/uploads/2013/07/django-dropdown.png)
