@@ -12,11 +12,11 @@ comments: false
   {% endfor %}
 </ul>-->
 
-<table border="0">
+<table>
     <tbody>
         {% for post in site.posts %}
         <tr>
-            <td>{{ post.date | date_to_string }}</td>
+            <td style="border: none; padding: 0;">{{ post.date | date_to_string }}</td>
             <td>
                 &raquo; 
                 <a href="{{ BASE_PATH }}{{ post.url }}">
