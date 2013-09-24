@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Posts
-tagline: Supporting tagline
+tagline:
 comments: false
 ---
 {% include JB/setup %}
