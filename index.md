@@ -12,7 +12,7 @@ comments: false
   {% endfor %}
 </ul>-->
 
-<table>
+<table class="table table-hover">
     <tbody>
         {% for post in site.posts %}
         <tr>
