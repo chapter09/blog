@@ -2,7 +2,7 @@
 layout: post
 title: "[12] Why people visit museums?"
 description: ""
-category:
+categories:
 - toefl writing
 tags: []
 ---

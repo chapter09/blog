@@ -2,7 +2,7 @@
 layout: post
 title: "semi colon(;)"
 description: ""
-category: 
+categories: 
 - TOEFL Writing
 tags: []
 ---
