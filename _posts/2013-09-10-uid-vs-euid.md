@@ -2,7 +2,7 @@
 layout: post
 title: "uid vs euid"
 description: ""
-category:
+categories:
 - Linux
 tags: [Linux]
 ---
