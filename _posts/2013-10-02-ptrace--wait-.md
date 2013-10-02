@@ -3,7 +3,6 @@ layout: post
 title: "ptrace + wait 用法"
 description: ""
 categories:
-- Linux 
 tags: []
 ---
 {% include JB/setup %}
