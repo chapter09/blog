@@ -66,7 +66,7 @@ tags: []
 	    ret = waitpid(pid, &status, WUNTRACED); // 等待子进程最外面的execvp
 	    //for(;;);
 	    ptrace(PTRACE_CONT, pid, NULL, NULL); //如果PTRACE_CONT换成PTRACE_DETACH，
-	    									   //则第二execvp不会导致子进程挂起
+	    //则第二execvp不会导致子进程挂起
 	
 	    ret = waitpid(pid, &status, WUNTRACED); // 等待子进程最里面的execvp
 	    for(;;); // 因为这个死循环的存在，子进程仍然suspend在那
