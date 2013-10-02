@@ -2,7 +2,7 @@
 layout: post
 title: "ptrace + wait 用法"
 description: ""
-categories:
+category:
 tags: []
 ---
 {% include JB/setup %}
