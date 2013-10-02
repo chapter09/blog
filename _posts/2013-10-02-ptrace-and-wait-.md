@@ -7,6 +7,8 @@ tags: []
 ---
 {% include JB/setup %}
 
+> The SIGCHLD signal is sent to the parent of a child process when it exits, is interrupted, or resumes after being interrupted. By default the signal is simply ignored.
+
 在子进程execvp的程序为：
 
 	#include <stdio.h>
