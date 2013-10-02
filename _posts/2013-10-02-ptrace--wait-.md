@@ -4,7 +4,7 @@ title: "ptrace + wait 用法"
 description: ""
 categories:
 - Linux 
-tags: [ptrace]
+tags: []
 ---
 {% include JB/setup %}
 
