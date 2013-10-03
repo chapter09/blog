@@ -17,5 +17,3 @@ comments: false
 > 圣人必有过去，罪人必有将来——奥斯卡·王尔德 
 
 > [My CV](WangHao_CV.pdf)
-
-<iframe src="//instagram.com/p/SC1fivEKsn/embed/" width="153" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
