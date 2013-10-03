@@ -16,7 +16,5 @@ comments: false
 
 > 圣人必有过去，罪人必有将来——奥斯卡·王尔德 
 
-[CV](WangHao_CV.pdf)
-
-![Mou icon](img/me.jpg)
+> [My CV](WangHao_CV.pdf)
 
