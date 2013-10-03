@@ -18,4 +18,4 @@ comments: false
 
 > [My CV](WangHao_CV.pdf)
 
-<iframe src="//instagram.com/p/SC1fivEKsn/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+<iframe src="//instagram.com/p/SC1fivEKsn/embed/" width="153" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
