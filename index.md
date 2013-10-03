@@ -17,7 +17,7 @@ comments: false
         {% for post in site.posts %}
         <tr>
             <td style="border: none; padding: 0;text-align: right;">{{ post.date | date_to_string }}</td>
-            <td></td>
+            <td style="border: none;"></td>
             <td style="border: none; padding: 0;">
                 &raquo; 
                 <a href="{{ BASE_PATH }}{{ post.url }}">
