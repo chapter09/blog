@@ -6,7 +6,7 @@ comments: false
 ---
 {% include JB/setup %}
 
-<table class="table table-hover">
+<table class="table table-hover" style=" margin-left: -20px; ">
     <tbody>
         {% for post in site.posts %}
         <tr>
