@@ -18,4 +18,4 @@ comments: false
 
 > [My CV](WangHao_CV.pdf)
 
-![Foto](http://photo.yupoo.com/chapter09/DcYbK7f4/medish.jpg)
+![Foto](http://pic.yupoo.com/chapter09/DcYbK7f4/medish.jpg)
