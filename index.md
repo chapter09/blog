@@ -16,7 +16,8 @@ comments: false
     <tbody>
         {% for post in site.posts %}
         <tr>
-            <td align="right" style="border: none; padding: 0;">{{ post.date | date_to_string }}</td>
+            <td style="border: none; padding: 0;text-align: right;">{{ post.date | date_to_string }}</td>
+            <td></td>
             <td style="border: none; padding: 0;">
                 &raquo; 
                 <a href="{{ BASE_PATH }}{{ post.url }}">
