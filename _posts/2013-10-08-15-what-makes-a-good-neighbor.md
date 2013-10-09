@@ -19,9 +19,7 @@ In my childhood, my neighbors were like a big family. They were willing to help 
 A good neighbor never hesitates to give a hand. They do their best to help and ask for nothing. While I was a child, my parents occasionally had to work overtime and came back home at night. Like most children, I were so frightened by the darkness and silence of night that I would turn on the television and kept it loud. Fortunately, my kind neighbor knocked my door and invited me to their house. We watched TV series and had snacks together, which was a enjoyable  time. After that, my neighbor told my parents that they were glad to have me stay with them when my parents left for work. Thanks to my neighbor's help, my parents did not need to worry about me at their work, while there was no lonely and fearful night for me any more. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Meanwhile, excellent culinary arts makes a good neighbor. Tasty food . People can hardly reject tasty food, 
-
-
+Meanwhile, excellent culinary arts makes a good neighbor. Tasty food not only allows people experience the <> of food, but also brings  on people who produce them and share them. People can hardly reject yummy food along with kindness from a neighbor. Every time my family moved to a new place, my mum would like to make some palatable cookies and asked me to deliver to our neighbors. Though some neighbors could not recognize me at first, with my appetizing cookies and self-introduction, they were excited and pleased to welcome us, even they asked my family to join dinner with them. My mum's superb cooking skills made my family popular around our neighborhood. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 want a good neighbor, also to be a good neighbor for others.
