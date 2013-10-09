@@ -22,5 +22,5 @@ A good neighbor never hesitates to give a hand. They do their best to help but a
 Meanwhile, excellent culinary skills is critical for a good neighbor. Tasty food not only allows people experience amazing taste, but also makes people respect and favor the cooker. People can hardly reject yummy food from a neighbor. Every time my family moved to a new place, my mum would like to make some palatable cookies and asked me to deliver to our neighbors. Though some neighbors could not recognize me at first sight. After my self-introduction, they were pleased to taste the cookies and gave my family warm welcome, even they asked my family to join dinner with them. It was my mum's superb cooking skills that made my family popular around our neighborhood. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-There are less trouble because a good neighbor is fairly helpful, while there are more joy as a good neighbor makes toothsome food. In my mind, these qualities make a good neighbor. A good neighbor indeed plays an important role in our daily life.
+There are less trouble because a good neighbor is fairly helpful, while there is more joy as a good neighbor makes toothsome food. In my mind, these qualities make a good neighbor. A good neighbor indeed plays an important role in our daily life.
 
