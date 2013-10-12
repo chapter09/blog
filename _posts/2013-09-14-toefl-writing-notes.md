@@ -26,4 +26,3 @@ tags: []
 * 总结一些材料，本次西点军校的材料要记住
 
 
-![morning](/img/uploads/2013/09/IMG_0079.jpg)
