@@ -20,5 +20,5 @@ First of all, a new restaurant comes with new tastes. Since many years, people d
 Secondly, competition drives old restaurants to refine themselves. A brand-new restaurant with shiny plate and bowl is obviously a strong competitor for those old ones. The outdated restaurants are faced with two options: to upgrade or die. They have to do their best to refresh their menus, enhance their service, and redecorate their house. After their reincarnation, they may win their guests back. In result, people experience refined food and convenience service at a low price. From the competition between restaurants, neighbors benefit greatly.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-It's great to have a new ... however, if more and more restaurants come into the neighborhood, it will exceeds its capability and brings more noise and pollution. Over competition.
+A new restaurant built in our neighborhood should be supported and welcomed. It brings more appetizing food and pushes other restaurants to promote themselves. People have more opportunity to try various kinds of food and experience optimized service. However, with more and more restaurants being built in the neighborhood, their noise and garbage may have a side effect over our neighborhood.
 
