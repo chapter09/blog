@@ -1,3 +1,5 @@
+{% include my_google_search.html %}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -40,6 +42,10 @@
             <li><a href="/archive.html">Archive</a></li>
             <li><a href="/tags.html">Tags</a></li>
             <li><a href="/about.html">About Me</a></li>
+            <li><form onsubmit="my_search_google()" >
+                  <input type="text" id="my-google-search">
+                </form>
+            </li>  
           </ul>
         </div>
       </div>
