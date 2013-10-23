@@ -24,8 +24,7 @@ Students benefit a lot from learning by themselves. A survey on Top 10 universit
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Meanwhile, a teacher does own plenty of invaluable experience. Though teachers may not be considerate for any students, teachers still cannot be completely replaced. They have enough experience to give a student a clear direction when he or she has no idea about their study. It's worthwhile and necessary to have a periodic talk with teachers. The famous computer scientist Turing has a habit of taking notes during his reading when he got an idea. When he collected two or three pages of ideas, he asked his teacher to discuss with him. His teacher's advices became  in his lifetime. 
+Meanwhile, a teacher does own plenty of invaluable experience. Though teachers may not be considerate for any students, teachers still cannot be completely replaced. They have enough experience to give a student a clear direction when he or she has no idea about their study. It's worthwhile and necessary to have a periodic talk with teachers. The famous computer scientist Turing has a habit of taking notes during his reading when he got an idea. When he collected two or three pages of ideas, he asked his teacher to discuss with him. His teacher's advices on Computing Theory had a profound effect on his whole career. As we can see, teachers' experience offers an additional opportunity for students to promote themselves.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
+A student gains more but takes less time by learning independently, while a teacher can hardly fulfill every students' need. Nonetheless, for abundant experience a teacher owns, he or she plays a better role when students ask them for suggestions not for classes. With above reasons, it's a fairly reasonable choice for students to study alone and freely, but frequently have a meet with teachers. 
