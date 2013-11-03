@@ -18,17 +18,6 @@ comments: false
 
 > [My CV](WangHao_CV.pdf)
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a>
-<br />
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
-
-<!-- Place this tag where you want the +1 button to render. -->
-<div class="g-plusone" data-size="medium" data-annotation="none"></div>
-
-<script type="text/javascript" src="http://www.douban.com/service/badge/chapter09/?selection=latest&amp;picsize=small&amp;show=collection&amp;n=6&amp;cat=drama%7Cmovie%7Cbook%7Cmusic&amp;columns=6"></script>
-
-
-<!-- Place this tag after the last +1 button tag. -->
 <script type="text/javascript">
   (function() {
     var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
@@ -36,3 +25,10 @@ This work is licensed under a <a rel="license" href="http://creativecommons.org/
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
 </script>
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a>
+<br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+
+
