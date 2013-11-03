@@ -25,6 +25,9 @@ This work is licensed under a <a rel="license" href="http://creativecommons.org/
 <!-- Place this tag where you want the +1 button to render. -->
 <div class="g-plusone" data-size="medium" data-annotation="none"></div>
 
+<script type="text/javascript" src="http://www.douban.com/service/badge/chapter09/?selection=latest&amp;picsize=small&amp;show=collection&amp;n=6&amp;cat=drama%7Cmovie%7Cbook%7Cmusic&amp;columns=6"></script>
+
+
 <!-- Place this tag after the last +1 button tag. -->
 <script type="text/javascript">
   (function() {
