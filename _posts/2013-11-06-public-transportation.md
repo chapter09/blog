@@ -1,4 +1,14 @@
-Should governments spend more money on improving roads and highways, or should governments spend more money on improving public transportation (buses, trains, subways)? Why? Use specific reasons and details to develop your essay.
+---
+layout: post
+title: "[16] What's your opinion on a new restaurant built in your neighborhood?"
+description: ""
+categories:
+- toefl writing
+tags: []
+---
+{% include JB/setup %}
+
+	Should governments spend more money on improving roads and highways, or should governments spend more money on improving public transportation (buses, trains, subways)? Why? Use specific reasons and details to develop your essay.
 
 Transportation system plays an important role in people's daily life. It indeed saves plenty of time for people to go to work and travel around. Compared with public transportation, driving by oneself may be much more comfortable and convenient. Actually the situation seems to be the opposite in crowed cities. In my opinion, governments should invest more on improving public transportation.
 
