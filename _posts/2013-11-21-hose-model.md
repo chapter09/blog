@@ -21,15 +21,20 @@ tags: []
 
 [5]	P. Soares, J. Santos, N. Tolia, D. Guedes, and Y. Turner, “Gatekeeper: Distributed Rate Control for Virtualized Datacenters,” 2010.
 
-实际上这些论文里的Hose Model都是来源于以下这篇论文，SIGCMM 1999
+实际上这些论文里的Hose Model都是来源于以下SIGCOMM1999的一篇论文
 
-[1]	N. G. Duffield, P. Goyal, A. Greenberg, and P. Mishra, “A flexible model for resource management in virtual private networks,” ACM SIGCOMM …, 1999.
+N. G. Duffield, P. Goyal, A. Greenberg, and P. Mishra, “A flexible model for resource management in virtual private networks,” ACM SIGCOMM …, 1999.
 
 ![figure_1](http://f.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=2d2c3e2eb8a1cd1101b672258929b9c1/d000baa1cd11728b92e0563ccafcc3cec2fd2cdb.jpg?referer=1d653e6daf4bd1135dda83028cb9&x=.jpg)
 
 A flexible model for resource management in virtual private networks 其实讲的是VPN下的资源分配模型。
 
-最早VPN用是pipeline的方式，如下图：
+最早VPN用是pipeline的方式，这样导致的问题是A，B，C，D四个客户相互连接的pipeline无法复用和灵活调整，客户需要精确地根据traffic matrix分配，因为每条pipeline都限制好了。比如A-D的线路，A-B的线路对于A来说，如果A-D的带宽暂时没用，A-B就没法用上A-D的空闲带宽。
+
+> The primary disadvantage of this approach is that it requires the customer to have precise knowledge of the traffic matrix between all the VPN sites. Resources made available to a customer-pipe cannot be allocated to other traffic. 
+
+如下图：
+
 ![figure_2](http://e.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=b6e12a380b24ab18e416e13205c197f0/d1160924ab18972b3080cfd4e4cd7b899e510a72.jpg?referer=ae170c2d718da9771738b31b7611&x=.jpg)
 
 
