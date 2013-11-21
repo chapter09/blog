@@ -40,6 +40,3 @@ A flexible model for resource management in virtual private networks 其实讲�
 因此有了Figure-1，通过软管这样的逻辑接口，可以让customer的出口和入口统一起来。控制软管的出口和进口，并提供性能保证。
 
 >In the hose model, a VPN customer specifies a set of endpoints to be connected with common endpoint-to-endpoint performance guarantees. The connectivity of each endpoint to the net- work is specified by a hose
-
-![figure_3](http://g.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=887604272a381f309a198dac993a3d35/060828381f30e924aec0aa2e4e086e061d95f74c.jpg?referer=64570fdcd5ca7bcb246cf21f3142&x=.jpg)
-
