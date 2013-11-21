@@ -25,7 +25,7 @@ tags: []
 
 >N. G. Duffield, P. Goyal, A. Greenberg, and P. Mishra, “A flexible model for resource management in virtual private networks,” ACM SIGCOMM …, 1999.
 
-![figure_1](http://f.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=2d2c3e2eb8a1cd1101b672258929b9c1/d000baa1cd11728b92e0563ccafcc3cec2fd2cdb.jpg?referer=1d653e6daf4bd1135dda83028cb9&x=.jpg)<Figure-1>
+![figure_1](http://f.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=2d2c3e2eb8a1cd1101b672258929b9c1/d000baa1cd11728b92e0563ccafcc3cec2fd2cdb.jpg?referer=1d653e6daf4bd1135dda83028cb9&x=.jpg)Figure-1
 
 A flexible model for resource management in virtual private networks 其实讲的是VPN下的资源分配模型。
 
@@ -35,8 +35,12 @@ A flexible model for resource management in virtual private networks 其实讲�
 
 如Figure-2：
 
-![figure_2](http://e.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=b6e12a380b24ab18e416e13205c197f0/d1160924ab18972b3080cfd4e4cd7b899e510a72.jpg?referer=ae170c2d718da9771738b31b7611&x=.jpg)<Figure-2>
+![figure_2](http://e.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=b6e12a380b24ab18e416e13205c197f0/d1160924ab18972b3080cfd4e4cd7b899e510a72.jpg?referer=ae170c2d718da9771738b31b7611&x=.jpg)Figure-2
 
 因此有了Figure-1，通过软管这样的逻辑接口，可以让customer的出口和入口统一起来。控制软管的出口和进口，并提供性能保证。
 
 >In the hose model, a VPN customer specifies a set of endpoints to be connected with common endpoint-to-endpoint performance guarantees. The connectivity of each endpoint to the net- work is specified by a hose
+
+![figure_3](http://g.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=887604272a381f309a198dac993a3d35/060828381f30e924aec0aa2e4e086e061d95f74c.jpg?referer=64570fdcd5ca7bcb246cf21f3142&x=.jpg)
+
+
