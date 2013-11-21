@@ -41,6 +41,12 @@ A flexible model for resource management in virtual private networks 其实讲�
 
 >In the hose model, a VPN customer specifies a set of endpoints to be connected with common endpoint-to-endpoint performance guarantees. The connectivity of each endpoint to the net- work is specified by a hose
 
-![figure_3](http://g.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=887604272a381f309a198dac993a3d35/060828381f30e924aec0aa2e4e086e061d95f74c.jpg?referer=64570fdcd5ca7bcb246cf21f3142&x=.jpg)
+![figure_3](http://g.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=887604272a381f309a198dac993a3d35/060828381f30e924aec0aa2e4e086e061d95f74c.jpg?referer=64570fdcd5ca7bcb246cf21f3142&x=.jpg)Figure-3
+
+因此到了目前的DCN里面，应用Hose Modle的场景就是这样的了：
+
+![figure_4](http://f.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=382f01f8932397ddd279980169b9c38a/0dd7912397dda144f02354adb0b7d0a20cf48682.jpg?referer=f246fef1b68f8c54bac4f01fe280&x=.jpg)Figure-4
+
+
 
 
