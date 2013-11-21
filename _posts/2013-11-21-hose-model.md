@@ -47,6 +47,8 @@ A flexible model for resource management in virtual private networks 其实讲�
 
 ![figure_4](http://f.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=382f01f8932397ddd279980169b9c38a/0dd7912397dda144f02354adb0b7d0a20cf48682.jpg?referer=f246fef1b68f8c54bac4f01fe280&x=.jpg)Figure-4
 
+每一条link上可以有多个flow，而这些flow在软管中的带宽是可以灵活调节的。另外这些link不一定是物理上的link，可能是逻辑上的link。
 
+Hose Model于是体现在了DCN里面的链路里。
 
 
