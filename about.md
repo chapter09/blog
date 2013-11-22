@@ -23,6 +23,7 @@ comments: false
 <a href="http://cn.linkedin.com/pub/hao-wang/25/948/295" style="text-decoration:none;"><span style="font: 80% Arial,sans-serif; color:#0783B6;"><img src="http://s.c.lnkd.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" width="20" height="15" alt="View Hao Wang's LinkedIn profile" style="vertical-align:middle" border="0">View Hao Wang's profile</span>
 </a>
 <br/>
+<br/>
 
 <script type="text/javascript" src="http://www.douban.com/service/badge/chapter09/?selection=latest&amp;picsize=small&amp;show=collection&amp;n=6&amp;cat=drama%7Cmovie%7Cbook%7Cmusic&amp;columns=6"></script>
 
