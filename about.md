@@ -18,6 +18,11 @@ comments: false
 
 > [My CV](WangHao_CV.pdf)
 
+<a href="http://cn.linkedin.com/pub/hao-wang/25/948/295">
+      
+<img src="http://s.c.lnkd.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Hao Wang's profile on LinkedIn">
+</a>
+
 <script type="text/javascript" src="http://www.douban.com/service/badge/chapter09/?selection=latest&amp;picsize=small&amp;show=collection&amp;n=6&amp;cat=drama%7Cmovie%7Cbook%7Cmusic&amp;columns=6"></script>
 
 
