@@ -51,4 +51,14 @@ A flexible model for resource management in virtual private networks 其实讲�
 
 Hose Model于是体现在了DCN里面的链路里。
 
+![figure_5](http://h.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=543806c834d12f2eca05ae657ff9a45f/55e736d12f2eb938b4841dedd7628535e4dd6fc7.jpg?referer=b3568377cebf6c81ae2018d8c9dd&x=.jpg)
 
+在SIGCOMM2013的这篇论文里便应用了Hose Model。简单的说其实就是把物理上的link聚合在一起看成可以灵活划分bandwidth的软管。实际上一个软管之下的物理链路是复杂的，但是通过软管能在逻辑的高度上灵活划分带宽。
+
+这也就是为什么在SIGCOMM2011 的Towards Predictable Datacenter Networks中说到：
+
+> The hose model is akin to the virtual cluster abstraction
+
+Hose Model或者Virtual Cluster都是逻辑的抽象。
+
+>L. Popa, P. Yalagandula, S. Banerjee, and J. C. Mogul, “ElasticSwitch: Practical Work-Conserving Bandwidth Guarantees for Cloud Computing,” 2013.
