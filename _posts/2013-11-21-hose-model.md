@@ -2,7 +2,7 @@
 layout: post
 title: "Hose Model"
 description: ""
-category: 
+categories: 
 - Network
 tags: []
 ---
