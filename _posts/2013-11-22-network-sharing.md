@@ -23,9 +23,9 @@ Contribution:
 
 Method:
 
->1. 提出两个需求模型：virtual cluster和virtual oversubscribed cluster。通过&#61;N,B&#62;和&#61;N,B,S,O&#62;，tenant能够很好地表达自己的需求，同时provider也能更好的实施这些需求(比如，VM allocation)
+>1. 提出两个需求模型：virtual cluster和virtual oversubscribed cluster。通过&#60;N,B&#62;和&#60;N,B,S,O&#62;，tenant能够很好地表达自己的需求，同时provider也能更好的实施这些需求(比如，VM allocation)
 
->2. 针对两个模型，设置参数，并提出了Allocation算法。在VC中计算每条链路的带宽需求，结合Rack上的空闲server数来完成&#61;N,B&#62;的request。同样地，&#61;N,B,S,O&#62;的VOC模型的实施也要结合物理拓扑做类似的计算。
+>2. 针对两个模型，设置参数，并提出了Allocation算法。在VC中计算每条链路的带宽需求，结合Rack上的空闲server数来完成&#60;N,B&#62;的request。同样地，&#60;N,B,S,O&#62;的VOC模型的实施也要结合物理拓扑做类似的计算。
 
 >3. job分为计算时间，和完成时间。Network的lag导致需要等待flow的到来。完成时间是一个重要的metric
 
