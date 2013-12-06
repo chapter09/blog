@@ -6,6 +6,8 @@ comments: false
 ---
 {% include JB/setup %}
 
+<img width="50%" href="http://c.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=82af9b3fb8a1cd1101b672258929b9c1/d000baa1cd11728b3d63f32dcafcc3cec3fd2c76.jpg?referer=b2e69b7caf4bd1135dda82028c2c&x=.jpg" />
+
 上海西南某高校人士
 
 活了23年有余，读了一个IS的本科，在读一个SE的研究生
