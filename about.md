@@ -11,7 +11,8 @@ comments: false
 	margin-right: 40px;">
 <div style="
 	   background-image:url('/img/me.png');
-	   height:217px; width: 162px;"></div>
+	   height:217px; width: 162px;
+	   border: 1px solid #DDD;"></div>
 </div>
 
 
