@@ -6,10 +6,11 @@ comments: false
 ---
 {% include JB/setup %}
 
-<div class="span3" style="float: left;">
+<div class="span3" 
+	 style="float: left; 
+	margin-right: 70px;">
 <div style="
-	   margin-right: 70px;
-	   background-image:url('/img/me.png'); 	   
+	   background-image:url('/img/me.png');
 	   height:217px; width: 162px;"></div>
 </div>
 
