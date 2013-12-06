@@ -8,7 +8,7 @@ comments: false
 
 <div class="span3" 
 	 style="float: left; 
-	margin-right: 70px;">
+	margin-right: 60px;">
 <div style="
 	   background-image:url('/img/me.png');
 	   height:217px; width: 162px;"></div>
