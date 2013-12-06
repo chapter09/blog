@@ -13,7 +13,7 @@ comments: false
 </div>
 
 
-<div style="margin-right: 40px;">
+<div style="margin-left: 40px;">
 <p>
 上海西南某高校人士<br/>
 
