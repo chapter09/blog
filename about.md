@@ -8,12 +8,13 @@ comments: false
 
 <div class="span3" style="float: left;">
 <div style="
+	   margin-right: 70px;
 	   background-image:url('/img/me.png'); 	   
 	   height:217px; width: 162px;"></div>
 </div>
 
 
-<div style="margin-left: 40px;">
+<div>
 <p>
 上海西南某高校人士<br/>
 
