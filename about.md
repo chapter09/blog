@@ -10,7 +10,7 @@ comments: false
 <div style="
 	   margin-right: 40px;
 	   background-image:url('/img/me.png'); 	   
-	   width:162px;"></div>
+	   height:217px;"></div>
 </div>
 
 
