@@ -7,7 +7,7 @@ comments: false
 {% include JB/setup %}
 
 <div class="span3" style=" float: left; ">
-<img src="http://c.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=82af9b3fb8a1cd1101b672258929b9c1/d000baa1cd11728b3d63f32dcafcc3cec3fd2c76.jpg?referer=b2e69b7caf4bd1135dda82028c2c&x=.jpg" />
+<img width="100%" src="http://c.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=82af9b3fb8a1cd1101b672258929b9c1/d000baa1cd11728b3d63f32dcafcc3cec3fd2c76.jpg?referer=b2e69b7caf4bd1135dda82028c2c&x=.jpg" />
 </div>
 
 <div class="span9">
