@@ -6,8 +6,11 @@ comments: false
 ---
 {% include JB/setup %}
 
-<img width="50%" href="http://c.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=82af9b3fb8a1cd1101b672258929b9c1/d000baa1cd11728b3d63f32dcafcc3cec3fd2c76.jpg?referer=b2e69b7caf4bd1135dda82028c2c&x=.jpg" />
+<div class="span3">
+<img width="30%" src="http://c.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=82af9b3fb8a1cd1101b672258929b9c1/d000baa1cd11728b3d63f32dcafcc3cec3fd2c76.jpg?referer=b2e69b7caf4bd1135dda82028c2c&x=.jpg" />
+</div>
 
+<div class="span10">
 上海西南某高校人士
 
 活了23年有余，读了一个IS的本科，在读一个SE的研究生
@@ -15,6 +18,7 @@ comments: false
 发现学了不少，但是会的不多
 
 人这一生须豁达向上，学不同的东西，认识有意思的朋友。注定无法点亮整棵技能树，但是可以尽力去收获更多的叶子。
+</div>
 
 > 圣人必有过去，罪人必有将来——奥斯卡·王尔德 
 
