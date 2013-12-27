@@ -29,14 +29,15 @@ controller需要通过tp_src 来match switch上的一条rule并做DELETE操作�
 This question also presents itself as "What does the 'Fields ignored due to unspecified prerequisites' warning mean?"
 
 Basically this means that you specified some higher-layer field without specifying the corresponding lower-layer fields also.  For example, you may have tried to create a match in which you specified only tp_dst=80, intending to capture HTTP traffic.  You can't do this.  To match TCP port 80, you must also specify that you intend to match TCP (nw_proto=6).  And in order to match on TCP, you must also match on IP (dl_type=0x800).
+
 For more information, see the text on "normal form" flow descriptions in the ovs-ofctl man page, or the new clarifying text added to section 3.4 in the OpenFlow 1.0.1 specification.
 
 应该提供对packet 更底层layer的match field:
   
-  msg_updt.match = of.ofp_match()
-  msg_updt.match.dl_type = 0x0800
-  msg_updt.match.nw_proto = 6
-  msg_updt.match.tp_src = self.flow_list[flow_rm]
+	msg_updt.match = of.ofp_match()
+	msg_updt.match.dl_type = 0x0800
+	msg_updt.match.nw_proto = 6
+	msg_updt.match.tp_src = self.flow_list[flow_rm]
  
  这样就OK了。
  
