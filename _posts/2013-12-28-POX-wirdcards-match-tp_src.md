@@ -9,8 +9,8 @@ tags: []
 
 controller需要通过tp_src 来match switch上的一条rule并做DELETE操作，但是单纯以一下code:
 
-	msg_updt.match = of.ofp_match()
-	msg_updt.match.tp_src = self.flow_list[flow_rm]
+    msg_updt.match = of.ofp_match()
+    msg_updt.match.tp_src = self.flow_list[flow_rm]
 
 是会有warning的：
 
