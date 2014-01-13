@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Network Sharing"
+title: "Network Sharing (Oktopus)"
 description: ""
 categories:
 - Network 
