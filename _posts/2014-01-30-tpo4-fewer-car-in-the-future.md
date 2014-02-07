@@ -22,3 +22,5 @@ Additionally, more people can afford a car with future highly developed automobi
 Meanwhile, in twenty years, more cars will not mean more air pollution. With cars powered by electricity prevailing around the world, the roads will be quiet and clean. Because electric cars have a completely different engine with traditional gasoline cars, there is no burning at all in electric engines. That's why an electric car can perform as excellent as a gasoline car while no noise and polluted gas are produced. Thus, there is no reason for people to refuse such an eco-friendly and powerful car.
 
 In twenty years, our techniques and facilities are both upgraded, cars will be much cheaper, smarter and friendly to the environment, while roads are widened. A car makes it possible to reach the destination freely and comfortably. It's reasonable to believe that there will be more cars in the future.
+
+###Here is the [amended version](http://www.sharewithu.com/forum.php?mod=viewthread&tid=689876&page=1#pid7208977)
