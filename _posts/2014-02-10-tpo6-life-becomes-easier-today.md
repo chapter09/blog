@@ -2,7 +2,8 @@
 layout: post
 title: "[TPO6] Life becomes easier today?"
 description: ""
-categories: 
+categories:
+- toefl writing
 tags: []
 ---
 {% include JB/setup %}
