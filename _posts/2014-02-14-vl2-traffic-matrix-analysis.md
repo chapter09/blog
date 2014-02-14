@@ -16,7 +16,5 @@ For computational tractability, we compute the ToR-to-ToR TM — the entry TM(t)
 
 这一段看了有一会。现在应该算看明白了: 首先在一个1500 servers的cluster里面，记录了相当一天意义的Traffic Matrix的数据。
 
-组成的{$TM\_1$ , $$$ TM_2 $$$, ..., $$$TM_m$$$}
-
-
+组成的{$TM\_1$ , $TM\_2$, ..., $TM\_m$}
 > Zhang, Y., & Ge, Z. (2005). Finding critical traffic matrices (pp. 188–197). Presented at the Dependable Systems and Networks, 2005. DSN 2005. Proceedings. International Conference on, IEEE. doi:10.1109/DSN.2005.51
