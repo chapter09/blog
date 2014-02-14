@@ -36,9 +36,7 @@ ___
 
 
 <br/>
-<br/>
 
-<script type="text/javascript" src="http://www.douban.com/service/badge/chapter09/?selection=latest&amp;picsize=small&amp;show=collection&amp;n=6&amp;cat=drama%7Cmovie%7Cbook%7Cmusic&amp;columns=6"></script>
 
 <p align="center">
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a>
