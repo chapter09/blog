@@ -25,9 +25,8 @@ comments: false
 人这一生须豁达向上，学不同的东西，认识有意思的朋友。</p>
 </div>
 ___
-圣人必有过去，罪人必有将来——奥斯卡·王尔德 
-
-
+> 圣人必有过去，罪人必有将来——奥斯卡·王尔德 
+___
 [My CV](WangHao_CV.pdf) | [Our Startup Company](http://www.ramytech.com/)
 
 
