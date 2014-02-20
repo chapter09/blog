@@ -10,9 +10,9 @@ tags: []
 
 |  | Hedera | MPTCP | DRB |
 | ------------ | ------------- | ------------ | ------------ |
-| Type | per flow  | Content Cell | per packet|
-| Algr |   | Content Cell ||
-| Goal | Schedule large flows  | Content Cell ||
-| Topo | Fat Tree  | Content Cell ||
-| Implementation | OpenFlow  | Content Cell ||
-| Shortage | 5 sec estimation freq  | Content Cell ||
+| __Type__ | per flow  | Content Cell | per packet|
+| __Algr__ |   | Content Cell ||
+| __Goal__ | Schedule large flows  | Content Cell ||
+| __Topo__ | Fat Tree  | Content Cell ||
+| __Implementation__ | OpenFlow  | Content Cell ||
+| __Shortage__ | 5 sec estimation freq  | Content Cell ||
