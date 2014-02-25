@@ -23,4 +23,8 @@ For computational tractability, we compute the ToR-to-ToR TM — the entry TM(t)
 论文的数据是864个$TM$，当分成50~60个`cluster`的时候，fitting error仍然有60%。说明整个cluster的$TM$变化很大，很难用一个统一的routing规则或者$TM$去满足不同时间段的demand.
 
 论文里结论是:`This indicates that the variability in datacenter traffic is not amenable to concise summarization and hence engineering routes for just a few traffic matrices is unlikely to work well for the traffic encountered in practice.`
+
+![](http://d.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=8c496058ba99a9013f355b332dae7b46/e824b899a9014c08fd7f94e9087b02087bf4f432.jpg?referer=e8b2833af01fbe094549f72434d0&x=.jpg)
+
+图中纵轴是0-39个编号的`Cluster`，这些其实是从864个$TM$中选出来`representative TM`，在800多秒的区间内，每个`+`其实就是一个$TM$，这样的分布，足以可见DCN里面的Network没有固定pattern，因此更无法predict了。
 * Zhang, Y., & Ge, Z. (2005). Finding critical traffic matrices (pp. 188–197). Presented at the Dependable Systems and Networks, 2005. DSN 2005. Proceedings. International Conference on, IEEE. doi:10.1109/DSN.2005.51
