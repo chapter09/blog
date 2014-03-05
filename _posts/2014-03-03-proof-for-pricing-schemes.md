@@ -23,7 +23,7 @@ which is a concave function of $d$. On the other hand, taking derivation on both
     f'(d)d' = d + pd'             
 \end{equation}
 
-That is $d' = \frac{{{d^2}}}{{f'(d)d - f(d)}}$
+That is $$d' = \frac{{{d^2}}}{{f'(d)d - f(d)}}$$
 
 Since $f(0)=0$
 
