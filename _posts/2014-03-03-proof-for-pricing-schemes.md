@@ -37,9 +37,6 @@ f'(d)d - f(d) = f'(d)d - f(d) + f(0)\\
 for some $${d^*} \in (0,d)$$. For $f(d)$ is a concave function, there must be $$f'(d)<f'(d^*)$$, so that $d'<0$ and $d$ is a decreasing function of $p$. 􏰗
 
 
-____
-
-
 ###Lemma 2: 
 **The demand quantity $d$ is a concave function of price of each unit resource, if and only if $f''(d)d'>2$. \footnote{For brevity, the proof of Lemma 1 and Lemma 2 is given in~\cite{haowang2014}}**
 
