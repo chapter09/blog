@@ -34,4 +34,4 @@ f'(d)d - f(d) = f'(d)d - f(d) + f(0)\\
 \quad = [f'(d) - f'({d^*})]d
 \end{array}$$
 
-for some ${d^*} \in (0,d)$. For $f(d)$ is a concave function, there must be $f'(d)<f'(d^*)$, so that $d'<0$ and $d$ is a decreasing function of $p$. 􏰗
+for some $${d^*} \in (0,d)$$. For $f(d)$ is a concave function, there must be $$f'(d)<f'(d^*)$$, so that $d'<0$ and $d$ is a decreasing function of $p$. 􏰗
