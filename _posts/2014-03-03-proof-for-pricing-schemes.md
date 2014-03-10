@@ -12,12 +12,10 @@ tags: []
 
 __Proof__: From $U(d, p)=0$, we know 
 \begin{equation}\label{eq9}
-    f(d) = pd
+    f(d) = pd \quad\quad\quad(1)
 \end{equation}(1)
 substitute $pd$ in (2) with (9), there is
-\begin{equation}\label{eq10}
-    V(d, p)=f(d)-vg(d)
-\end{equation}(2)
+$$    V(d, p)=f(d)-vg(d) \quad\quad\quad(2)$$
 
 which is a concave function of $d$. On the other hand, taking derivation on both sides of (9) with respect to $p$, we know
 
