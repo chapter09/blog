@@ -49,7 +49,7 @@ for some $${d^*} \in (0,d)$$. For $f(d)$ is a concave function, there must be $f
 ###Lemma 2: 
 **The demand quantity $d$ is a concave function of price of each unit resource, if and only if $f''(d)d'>2$.**
 
-__Proof__: Take derivation on both sides of (11) with respect to $p$, we can get
+__Proof__: Take derivation on both sides of (5) with respect to $p$, we can get
 
 $$f''(d){(d')^2} + f'(d)d'' = 2d' + pd''$$ 
 
@@ -67,3 +67,24 @@ $$ d'' = [2{(d')^2} - f''(d){(d')^3}]/d\\
 \quad  = [2 - f''(d)d']{(d')^2}/d $$
 
 Since $d>0$ and $d'<0$,  ${d''}<0$ iff ${f''}(d){d'} >2$. █
+
+
+
+###Proposition 1: 
+**If the price announced in Subnetwork 1 is $p_1$, the price announced in Subnetwork 2 $p_2$ should be in $[u(s_1), p_{max}]$, where s1 is the strongest Qos requirement in Subnetwork 1 which can be calculated by solving  , and $p_max$ is determined by the strongest Qos requirement may exist in the network.**
+
+__Proof__: If $p_2 \in (p_1, u(s_1))$, since all the demands whose Qos requirement is in $(u^{-1}(p_2), s_1)$ are sent into Subnetwork 1, the weakest QoS requirement in Subnetwork 2 will be $s_1$, and the strongest QoS requirement in Subnetwork 2 is determined by solving 
+$D\int_{{s_2}}^{{s_1}} {q(x)dx}  = {s_2}{C_2}$
+The operator can charge
+
+$${p_1}D\int_{s_1}^{{u^{ - 1}}({p_1})} {q(x)dx + {p_2}D\int_{{s_2}}^{{s_1}} {q(x)dx} } $$
+
+for its resource. If the operator simply announces the resource price as $u(s_1)$ in Subnetwork 2, the demand sent into Subnetwork 2 will not change (i.e. the energy consumption does not change) but it will charge
+
+$${p_1}D\int_{s_1}^{u^{ - 1}(p_1)}{q(x)dx + u(s_1)D\int_{s_2}^{s_1}{q(x)dx}}$$
+
+for requested resource, which is larger than it announce a price in $(u^{-1}(p_2), s_1)$. █         
+
+
+
+
