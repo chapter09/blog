@@ -47,7 +47,7 @@ for some $${d^*} \in (0,d)$$. For $f(d)$ is a concave function, there must be $f
 
 
 ###Lemma 2: 
-**The demand quantity $d$ is a concave function of price of each unit resource, if and only if $f''(d)d'>2$. \footnote{For brevity, the proof of Lemma 1 and Lemma 2 is given in **
+**The demand quantity $d$ is a concave function of price of each unit resource, if and only if $f''(d)d'>2$. **
 
 __Proof__: Take derivation on both sides of (11) with respect to $p$, we can get
 
