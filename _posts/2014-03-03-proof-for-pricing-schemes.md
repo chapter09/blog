@@ -51,3 +51,7 @@ for some $${d^*} \in (0,d)$$. For $f(d)$ is a concave function, there must be $f
 
 __Proof__: Take derivation on both sides of (11) with respect to $p$, we can get
 
+$$f''(d){(d')^2} + f'(d)d'' = 2d' + pd''$$ 
+
+That is to say
+
