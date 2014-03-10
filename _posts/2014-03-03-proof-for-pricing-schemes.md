@@ -71,7 +71,7 @@ Since $d>0$ and $d'<0$,  ${d''}<0$ iff ${f''}(d){d'} >2$. █
 
 
 ###Proposition 1: 
-**If the price announced in Subnetwork 1 is $p_1$, the price announced in Subnetwork 2 $p_2$ should be in $[u(s_1), p\_{max}]$, where $s_1$ is the strongest Qos requirement in Subnetwork 1 which can be calculated by solving $D\int\_{{s_1}}^{{u^{ - 1}}({p_1})} {q(x)dx}  = {s_1}{C_1}$, and $p_{max}$ is determined by the strongest Qos requirement may exist in the network.**
+**If the price announced in Subnetwork 1 is $p_1$, the price announced in Subnetwork 2 $p_2$ should be in $[u(s_1), p\_{max}]$, where $s_1$ is the strongest Qos requirement in Subnetwork 1 which can be calculated by solving $D\int\_{s_1}^{u^{-1}(p_1)}{q(x)dx}={s_1}{C_1}$, and $p_{max}$ is determined by the strongest Qos requirement may exist in the network.**
 
 __Proof__: If $p_2 \in (p_1, u(s_1))$, since all the demands whose Qos requirement is in $(u^{-1}(p_2), s_1)$ are sent into Subnetwork 1, the weakest QoS requirement in Subnetwork 2 will be $s_1$, and the strongest QoS requirement in Subnetwork 2 is determined by solving 
 $D\int_{s_2}^{s_1} {q(x)dx}  = {s_2}{C_2}$
