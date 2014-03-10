@@ -57,7 +57,7 @@ That is to say
 
 $$d'' = \frac{2d' - f''(d){(d')}^2}{f'(d) - p}$$ 
 
-From (11), we know
+From (5), we know
 
 $$f'(d) - p = d/d'$$ 
 
