@@ -42,7 +42,7 @@ for some $${d^*} \in (0,d)$$. For $f(d)$ is a concave function, there must be $$
 
 __Proof__: Take derivation on both sides of (11) with respect to $p$, we can get
 
-$$f''(d){(d')^2} + f'(d)d'' = 2d' + pd''$$ That is to say
+<!--$$f''(d){(d')^2} + f'(d)d'' = 2d' + pd''$$ That is to say
 
 $$d'' = \frac{{2d' - f''(d){{(d')}^2}}}{{f'(d) - p}}$$ From (11), we know
 
@@ -53,4 +53,4 @@ d'' = [2{(d')^2} - f''(d){(d')^3}]/d\\
 \quad  = [2 - f''(d)d']{(d')^2}/d
 \end{array}$$ 
 
-Since $d>0$ and $d'<0$,  $d''<0$ iff $f''(d)d' >2$. \hfill $\blacksquare$
+Since $d>0$ and $d'<0$,  $d''<0$ iff $f''(d)d' >2$. \hfill $\blacksquare$-->
