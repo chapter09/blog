@@ -9,24 +9,28 @@ tags: []
 
 We assume that the customer earns $f(d)$ from $d$ units of demands, where $f(d)$ is an increasing and concave function of $d$. Let $g(d)$ denote the energy consumption of operator if it gives $d$ units of resource to the customer and $v$ denotes the cost which operator should pay for each unit of energy. Usually, $g(d)$ is a convex function [9].
 
+Now, the customer's utility is:
 
+$$       U(d,p) = f(d) - pd    \quad\quad\quad(1)$$
 
+if the operator charges a fee $p$ for each unit of demands. And the operator's utility is:
 
+$$       V(d,p) = pd - vg(d)   \quad\quad\quad(2)$$
 
 ###Lemma 1: 
 **When the operator announces a higher price, there will be less demand sent into the network.**
 
 __Proof__: From $U(d, p)=0$, we know 
 
-$$    f(d) = pd \quad\quad\quad\quad\quad(1)$$
+$$    f(d) = pd \quad\quad\quad\quad\quad(3)$$
 
-substitute $pd$ in (2) with (9), there is
+substitute $pd$ in (2) with (3), there is
 
-$$    V(d, p)=f(d)-vg(d) \quad\quad\quad(2)$$
+$$    V(d, p)=f(d)-vg(d) \quad\quad\quad(4)$$
 
 which is a concave function of $d$. On the other hand, taking derivation on both sides of (9) with respect to $p$, we know
 
-$$    f'(d)d' = d + pd'      \quad\quad\quad\quad(3)       $$
+$$    f'(d)d' = d + pd'      \quad\quad\quad\quad(5)       $$
 
 That is 
 
