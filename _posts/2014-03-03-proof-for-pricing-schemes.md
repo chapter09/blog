@@ -74,10 +74,10 @@ Since $d>0$ and $d'<0$,  ${d''}<0$ iff ${f''}(d){d'} >2$. █
 **If the price announced in Subnetwork 1 is $p_1$, the price announced in Subnetwork 2 $p_2$ should be in $[u(s_1), p_{max}]$, where s1 is the strongest Qos requirement in Subnetwork 1 which can be calculated by solving  , and $p_max$ is determined by the strongest Qos requirement may exist in the network.**
 
 __Proof__: If $p_2 \in (p_1, u(s_1))$, since all the demands whose Qos requirement is in $(u^{-1}(p_2), s_1)$ are sent into Subnetwork 1, the weakest QoS requirement in Subnetwork 2 will be $s_1$, and the strongest QoS requirement in Subnetwork 2 is determined by solving 
-$D\int_{{s_2}}^{{s_1}} {q(x)dx}  = {s_2}{C_2}$
+$D\int_{s_2}^{s_1} {q(x)dx}  = {s_2}{C_2}$
 The operator can charge
 
-$${p_1}D\int_{s_1}^{{u^{ - 1}}({p_1})} {q(x)dx + {p_2}D\int_{{s_2}}^{{s_1}} {q(x)dx} } $$
+$${p_1}D\int_{s_1}^{u^{ - 1}(p_1)}{q(x)dx + {p_2}D\int_{s_2}^{s_1}{q(x)dx}}$$
 
 for its resource. If the operator simply announces the resource price as $u(s_1)$ in Subnetwork 2, the demand sent into Subnetwork 2 will not change (i.e. the energy consumption does not change) but it will charge
 
