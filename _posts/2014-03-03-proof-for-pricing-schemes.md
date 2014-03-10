@@ -7,6 +7,12 @@ tags: []
 ---
 {% include JB/setup %}
 
+We assume that the customer earns $f(d)$ from $d$ units of demands, where $f(d)$ is an increasing and concave function of $d$. Let $g(d)$ denote the energy consumption of operator if it gives $d$ units of resource to the customer and $v$ denotes the cost which operator should pay for each unit of energy. Usually, $g(d)$ is a convex function [9].
+
+
+
+
+
 ###Lemma 1: 
 **When the operator announces a higher price, there will be less demand sent into the network.**
 
