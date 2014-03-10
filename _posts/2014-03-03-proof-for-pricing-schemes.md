@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-We assume that the customer earns $f(d)$ from $d$ units of demands, where $f(d)$ is an increasing and concave function of $d$. Let $g(d)$ denote the energy consumption of operator if it gives $d$ units of resource to the customer and $v$ denotes the cost which operator should pay for each unit of energy. Usually, $g(d)$ is a convex function [9].
+We assume that the customer earns $f(d)$ from $d$ units of demands, where $f(d)$ is an increasing and concave function of $d$. Let $g(d)$ denote the energy consumption of operator if it gives $d$ units of resource to the customer and $v$ denotes the cost which operator should pay for each unit of energy. Usually, $g(d)$ is a convex function [Enhanced intel speed step technology for the intel pentium m processor. Intel White Paper 201170-001, 2004.].
 
 Now, the customer's utility is:
 
@@ -28,7 +28,7 @@ substitute $pd$ in (2) with (3), there is
 
 $$    V(d, p)=f(d)-vg(d) \quad\quad\quad(4)$$
 
-which is a concave function of $d$. On the other hand, taking derivation on both sides of (9) with respect to $p$, we know
+which is a concave function of $d$. On the other hand, taking derivation on both sides of (3) with respect to $p$, we know
 
 $$    f'(d)d' = d + pd'      \quad\quad\quad\quad(5)       $$
 
