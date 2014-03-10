@@ -20,9 +20,7 @@ $$    V(d, p)=f(d)-vg(d) \quad\quad\quad(2)$$
 
 which is a concave function of $d$. On the other hand, taking derivation on both sides of (9) with respect to $p$, we know
 
-\begin{equation}\label{eq11}
-    f'(d)d' = d + pd'      \quad\quad\quad(3)       
-\end{equation}
+$$    f'(d)d' = d + pd'      \quad\quad\quad(3)       $$
 
 That is 
 
