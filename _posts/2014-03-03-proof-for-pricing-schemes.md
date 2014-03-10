@@ -11,17 +11,18 @@ tags: []
 **When the operator announces a higher price, there will be less demand sent into the network.**
 
 __Proof__: From $U(d, p)=0$, we know 
-\begin{equation}\label{eq9}
-    f(d) = pd \quad\quad\quad(1)
-\end{equation}(1)
+
+$$    f(d) = pd \quad\quad\quad(1)$$
+
 substitute $pd$ in (2) with (9), there is
+
 $$    V(d, p)=f(d)-vg(d) \quad\quad\quad(2)$$
 
 which is a concave function of $d$. On the other hand, taking derivation on both sides of (9) with respect to $p$, we know
 
 \begin{equation}\label{eq11}
-    f'(d)d' = d + pd'             
-\end{equation}(3)
+    f'(d)d' = d + pd'      \quad\quad\quad(3)       
+\end{equation}
 
 That is 
 
