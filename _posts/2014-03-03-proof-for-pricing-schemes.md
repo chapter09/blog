@@ -49,21 +49,3 @@ for some $${d^*} \in (0,d)$$. For $f(d)$ is a concave function, there must be $f
 ###Lemma 2: 
 **The demand quantity $d$ is a concave function of price of each unit resource, if and only if $f''(d)d'>2$.**
 
-__Proof__: Take derivation on both sides of (11) with respect to $p$, we can get
-
-$$f''(d){(d')^2} + f'(d)d'' = 2d' + pd''$$ 
-
-That is to say
-
-$$d'' = \frac{{2d' - f''(d){{(d')}^2}}}{{f'(d) - p}}$$ 
-
-From (11), we know
-
-$$f'(d) - p = d/d'$$ 
-
-so that
-
-$$ d'' = [2{(d')^2} - f''(d){(d')^3}]/d\\
-\quad  = [2 - f''(d)d']{(d')^2}/d $$
-
-Since $d>0$ and $d'<0$,  $d''<0$ iff $f''(d)d' >2$. █
