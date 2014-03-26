@@ -15,4 +15,8 @@ tags: []
 
 MPTCP defines DATA_ACK on connection level, while the ACK on subflow level works as SACK. According to the RFC 6824: __a sender is allowed to send data segments with data-level sequence numbers between (DATA_ACK, DATA_ACK + receive_window).  Each of these segments will be mapped onto sub flows, as long as subflow sequence numbers are in the allowed windows for those subflows.__ 
 
-A connection shares a unified receive window among its subflows, and DATA_ACK will drive this receive window to update. When the connection distributes the TCP segments whose sequence numbers (DSN, Data Sequence Number) are in the range of receive window, the segments will be put into different subflows. However, there is still a `receive window` on subflow level for SSN(Subflow Sequence Number). Only the segments in 
+A connection shares a unified receive window among its subflows, and DATA_ACK will drive this receive window to update. When the connection distributes the TCP segments whose sequence numbers (DSN, Data Sequence Number) are in the range of receive window, the segments will be put into different subflows. However, there is still a `receive window` on subflow level for SSN(Subflow Sequence Number). After the segments are mapped to the sequence numbers in the allowed windows of the subflows.
+
+* SSN is relative (the SYN at the start of the subflow has relative subflow sequence number 0).
+
+* DSN is specified as an absolute value.
