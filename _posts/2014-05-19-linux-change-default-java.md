@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Linux change default Java"
+title: "How does Linux change default Java"
 description: ""
 categories: 
 tags: []
