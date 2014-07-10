@@ -29,6 +29,14 @@ tags: []
 
 然后看到网上有帖子说`MASTER`应该写`hostname` 而不是`IP`。我把配置文件和Application source Code里统一用`hostname`。_// 这个问题我得读读源码才能说得清楚_
 
+报错为：
+	
+	14/06/13 22:09:43 INFO DAGScheduler: Submitting 104 missing tasks from Stage 0 (MappedRDD[1] at textFile at WikipediaPageRank.scala:59)
+	14/06/13 22:09:43 INFO TaskSchedulerImpl: Adding task set 0.0 with 104 tasks
+	14/06/13 22:09:58 WARN TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient memory
+	
+应该改为：
+
 	sparkConf.setMaster("spark://hostname:7077")
 
 
