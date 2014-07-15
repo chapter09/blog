@@ -66,16 +66,16 @@ In the code above, the `shuffleMapTask` will compute and get a result `pair`, wh
 * `consolidateShuffleFiles` == False
 	
 		ShuffleMapTask_1 --> mapId_1 --> |- bucketId_1 --> blockId_1 --> shuffleFile_1 
-							  		  	  |- bucketId_2 --> blockId_2 --> shuffleFile_2 
-							  		  	  |- bucketId_3 --> blockId_3 --> shuffleFile_3 
-							  	  		  |- bucketId_4 --> blockId_4 --> shuffleFile_4 
+					  		  	  |- bucketId_2 --> blockId_2 --> shuffleFile_2 
+					  		  	  |- bucketId_3 --> blockId_3 --> shuffleFile_3 
+					  	  		  |- bucketId_4 --> blockId_4 --> shuffleFile_4 
 										  |...
 										  |_ (numPartition / reduceNumber)
 
 		ShuffleMapTask_2 --> mapId_2 --> |- bucketId_1 --> blockId_5 --> shuffleFile_1 
-							  		  	  |- bucketId_2 --> blockId_6 --> shuffleFile_2 
-							  		  	  |- bucketId_3 --> blockId_7 --> shuffleFile_3 
-							  	  		  |- bucketId_4 --> blockId_8 --> shuffleFile_4 
+					  		  	  |- bucketId_2 --> blockId_6 --> shuffleFile_2 
+					  		  	  |- bucketId_3 --> blockId_7 --> shuffleFile_3 
+					  	  		  |- bucketId_4 --> blockId_8 --> shuffleFile_4 
 										  |...
 										  |_ (numPartition / reduceNumber)
 
@@ -87,16 +87,16 @@ Then for a single Worker, the number of intermediate files is __ShuffleMapTask N
 * `consolidateShuffleFiles` == True
 
 		mapId_1 -->   |- bucketId_1 --> blockId_1 --> --|
-		  		  	  |- bucketId_2 --> blockId_2 -->   |
-		  		  	  |- bucketId_3 --> blockId_3 -->   |
-		  	  		  |- bucketId_4 --> blockId_4 -->   |
+  		  	  |- bucketId_2 --> blockId_2 -->   |
+  		  	  |- bucketId_3 --> blockId_3 -->   |
+  	  		  |- bucketId_4 --> blockId_4 -->   |
 					  |...	                            |--> shuffleFile_1
 					  |_ (numPartition / reduceNumber)  |                         
 					  		                            |					                                        
 		mapId_2 -->   |- bucketId_1 --> blockId_5 --> --| 
-		  		  	  |- bucketId_2 --> blockId_6 -->  
-		  		  	  |- bucketId_3 --> blockId_7 -->  
-		  	  		  |- bucketId_4 --> blockId_8 -->  
+  		  	  |- bucketId_2 --> blockId_6 -->  
+  		  	  |- bucketId_3 --> blockId_7 -->  
+  	  		  |- bucketId_4 --> blockId_8 -->  
 					  |...
 					  |_ (numPartition / reduceNumber)
 								  	
