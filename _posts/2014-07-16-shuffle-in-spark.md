@@ -91,17 +91,15 @@ Then for a single Worker, the number of intermediate files is __ShuffleMapTask N
 							  		  	  |- bucketId_3 --> blockId_3 -->   |
 							  	  		  |- bucketId_4 --> blockId_4 -->   |
 										  |...	                            |--> shuffleFile_1
-										  |_ (numPartition / reduceNumber)  |                            								  	  			 
-									                                        |
-	    ShuffleMapTask_2 --> mapId_2 -->  |- bucketId_1 --> blockId_5 --> --| 
+										  |_ (numPartition / reduceNumber)  |                         
+										  		                            |					                                        
+		ShuffleMapTask_2 --> mapId_2 -->  |- bucketId_1 --> blockId_5 --> --| 
 							  		  	  |- bucketId_2 --> blockId_6 -->  
 							  		  	  |- bucketId_3 --> blockId_7 -->  
 							  	  		  |- bucketId_4 --> blockId_8 -->  
 										  |...
 										  |_ (numPartition / reduceNumber)
-										  
-
-	
+										  	
 
 
 
