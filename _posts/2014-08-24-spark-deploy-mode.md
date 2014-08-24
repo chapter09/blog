@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spark Deploy Mode"
+title: "Spark Deploy Mode: how Driver node is launched?"
 description: ""
 categories: 
 tags: []
@@ -22,4 +22,14 @@ Besides, there are various parameters to initialize the Spark cluster, *e.g.* de
 * As far as I know, there are two approaches to submit an application:
 	* sbt run (application configurations including CPU cores, memory, Master URL *etc.* have been set up in application source code.)
 	* spark-submit script. We mainly focus on this method in following paragraphs.
-*   
+
+When using `spark-submit` to submit applications, a parameter `deploy-mode` is used to set up deployMode in `SparkSubmit.scala`. 
+
+In `SparkSubmit.scala`:
+
+    val deployOnCluster = Option(args.deployMode).getOrElse("client") == "cluster"
+    
+Thus, in `StandAlone Mode` when `deployMode` is `client`, the `spark-submit` will run as the `Driver`. 
+
+While if the `deployMode` is 'cluster', for `StandAlone Mode`, the `spark-submit` will launch `org.apache.spark.deploy.Client`. In `Client` a request for deploying the `Driver` will be sent to the Master Actor. 
+ 
