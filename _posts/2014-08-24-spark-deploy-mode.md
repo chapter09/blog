@@ -10,6 +10,7 @@ tags: []
 ###1. Spark *init* order
 
 For simplicity, we set up two roles:
+
 * **Spark Admin**: who maintain the whole Spark cluster
 * **Spark User**: who submit applications, *e.g.* KMeans, PageRank
 
