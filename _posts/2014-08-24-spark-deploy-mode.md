@@ -34,4 +34,5 @@ Thus, in `StandAlone Mode` when `deployMode` is `client`, the `spark-submit` wil
 While if the `deployMode` is 'cluster', for `StandAlone Mode`, the `spark-submit` will launch `org.apache.spark.deploy.Client`. In `Client` a request for deploying the `Driver` will be sent to the Master Actor. Then, the Master will call `schedule()` function to assign a `Driver` on a random Worker node.
 
 Actually, the driver is the application source code itself, which expresses the main logic of the application.
- 
+
+![Spark Overview](http://spark.apache.org/docs/latest/img/cluster-overview.png)
