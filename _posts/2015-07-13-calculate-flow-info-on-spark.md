@@ -5,8 +5,6 @@ description: ""
 categories: 
 tags: []
 ---
-{% include JB/setup %}
-
 
 ##Calculate Flow _info._ on Spark 
 

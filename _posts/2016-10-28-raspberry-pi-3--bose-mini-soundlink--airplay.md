@@ -5,6 +5,5 @@ description: ""
 categories: 
 tags: []
 ---
-{% include JB/setup %}
 
 Test

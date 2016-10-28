@@ -5,7 +5,6 @@ description: ""
 categories: 
 tags: []
 ---
-{% include JB/setup %}
 ####1. Latex
 
 * MacTex, [https://tug.org/mactex/](https://tug.org/mactex/). The Letax compiler on Mac like the MiKTeX on Windows.
