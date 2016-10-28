@@ -1,6 +1,14 @@
 ---
-theme :
-  name : twitter
+layout: compress
 ---
-{% include JB/setup %}
-{% include themes/twitter/default.html %}
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <main class="wrapper">
+      {% include header.html %}
+      {{ content }}
+      {% include footer.html %}
+    </main>
+  </body>
+</html>
