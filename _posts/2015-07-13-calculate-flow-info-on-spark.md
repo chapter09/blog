@@ -193,24 +193,24 @@ A detailed blog on Spark Shuffle is [here](https://github.com/JerryLead/SparkInt
 In this file, a Shuffle ID is generated when a RDD calls a transformation which creates shuffle dependency between RDDs, _e.g._, `reduceByKey`.
 
 ```scala
-	class ShuffleDependency[K, V, C](
-	    @transient _rdd: RDD[_ <: Product2[K, V]],
-	    val partitioner: Partitioner,
-	    val serializer: Option[Serializer] = None,
-	    val keyOrdering: Option[Ordering[K]] = None,
-	    val aggregator: Option[Aggregator[K, V, C]] = None,
-	    val mapSideCombine: Boolean = false)
-	  extends Dependency[Product2[K, V]] {
-	
-	  override def rdd = _rdd.asInstanceOf[RDD[Product2[K, V]]]
-	
-	  val shuffleId: Int = _rdd.context.newShuffleId()
-	
-	  val shuffleHandle: ShuffleHandle = _rdd.context.env.shuffleManager.registerShuffle(
-	    shuffleId, _rdd.partitions.size, this)
-	
-	  _rdd.sparkContext.cleaner.foreach(_.registerShuffleForCleanup(this))
-	}
+class ShuffleDependency[K, V, C](
+    @transient _rdd: RDD[_ <: Product2[K, V]],
+    val partitioner: Partitioner,
+    val serializer: Option[Serializer] = None,
+    val keyOrdering: Option[Ordering[K]] = None,
+    val aggregator: Option[Aggregator[K, V, C]] = None,
+    val mapSideCombine: Boolean = false)
+  extends Dependency[Product2[K, V]] {
+
+  override def rdd = _rdd.asInstanceOf[RDD[Product2[K, V]]]
+
+  val shuffleId: Int = _rdd.context.newShuffleId()
+
+  val shuffleHandle: ShuffleHandle = _rdd.context.env.shuffleManager.registerShuffle(
+    shuffleId, _rdd.partitions.size, this)
+
+  _rdd.sparkContext.cleaner.foreach(_.registerShuffleForCleanup(this))
+}
 ```
 
 `val shuffleId: Int = _rdd.context.newShuffleId()` generates a new Shuffle ID.
@@ -222,7 +222,7 @@ Shuffle ID identify the dependency between two Stages. The child Stage will fetc
 
 After the parent Stages are finished, the child Stage is ready to launch. Then tasks in this child Stage will be assigned to each worker. A task is a capsule which can be executed independently, including all the information the worker needs to run, _e.g._, `reduceId`.
 
-**File**: `/core/src/main/scala/org/apache/spark/scheduler/DAGScheduler.scala'
+**File**: `/core/src/main/scala/org/apache/spark/scheduler/DAGScheduler.scala`
 
 ```scala
     val tasks: Seq[Task[_]] = if (stage.isShuffleMap) {
