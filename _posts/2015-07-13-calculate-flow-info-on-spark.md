@@ -25,29 +25,29 @@ First, to record the DAG or Stage dependencies, claim a HashMap at the head of t
 
 Insert the `jobAnalysis` method in `handleJobSubmitted` method.
 
-```
-	/** Job Analysis, output stages */
-	+  private def jobAnalysis(stage: Stage) {
-	+
-	+    def wrapper(curStage: Stage, childStage: Stage) {
-	+      val jobId = activeJobForStage(stage)
-	+      if (jobId.isDefined) {
-	+        val missing = getMissingParentStages(stage).sortBy(_.id)
-	+        if (!waitingStages(stage) && !runningStages(stage) && !failedStages(stage)) {
-	+          if (missing != Nil) {
-	+            for (parent <- missing) {
-	+              stageDep(parent) = curStage
-	+              wrapper(parent, curStage)
-	+            }
-	+          }
-	+        }
-	+      }
-	+    }
-	+
-	+    wrapper(stage, stage)
-	+    logInfo("--->JobDep: " + stageDep.toString)
-	+  }
-```
+<pre><code class="scala">
+/** Job Analysis, output stages */
++  private def jobAnalysis(stage: Stage) {
++
++    def wrapper(curStage: Stage, childStage: Stage) {
++      val jobId = activeJobForStage(stage)
++      if (jobId.isDefined) {
++        val missing = getMissingParentStages(stage).sortBy(_.id)
++        if (!waitingStages(stage) && !runningStages(stage) && !failedStages(stage)) {
++          if (missing != Nil) {
++            for (parent <- missing) {
++              stageDep(parent) = curStage
++              wrapper(parent, curStage)
++            }
++          }
++        }
++      }
++    }
++
++    wrapper(stage, stage)
++    logInfo("--->JobDep: " + stageDep.toString)
++  }
+</code></pre>
 
 Everytime when DAGScheduler submits a new Stage, the `handleJobSubmitted` will be called. Then by analyzing the dependencies of the newly submitted Stage, `jobAnalysis` constructs the full DAG for current job. 
 
