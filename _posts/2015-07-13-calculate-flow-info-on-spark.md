@@ -20,8 +20,9 @@ Spark version 1.0.0
 
 First, to record the DAG or Stage dependencies, claim a HashMap at the head of the file.
 
+```scala
 	+  private[scheduler] val stageDep = new HashMap[Stage, Stage]
-
+```
 
 Insert the `jobAnalysis` method in `handleJobSubmitted` method.
 
@@ -58,35 +59,37 @@ Everytime when DAGScheduler submits a new Stage, the `handleJobSubmitted` will b
 
 The ShuffleMapTask are distributed to each worker to do the Shuffle write, which is similar to the _Map_ pharse in MapReduce/Hadoop. 
 
-    override def runTask(context: TaskContext): MapStatus = {
-    // Deserialize the RDD using the broadcast variable.
-    val ser = SparkEnv.get.closureSerializer.newInstance()
-    val (rdd, dep) = ser.deserialize[(RDD[_], ShuffleDependency[_, _, _])](
-      ByteBuffer.wrap(taskBinary.value), Thread.currentThread.getContextClassLoader)
+```scala
+override def runTask(context: TaskContext): MapStatus = {
+	// Deserialize the RDD using the broadcast variable.
+	val ser = SparkEnv.get.closureSerializer.newInstance()
+	val (rdd, dep) = ser.deserialize[(RDD[_], ShuffleDependency[_, _, _])](
+	  ByteBuffer.wrap(taskBinary.value), Thread.currentThread.getContextClassLoader)
 
-    metrics = Some(context.taskMetrics)
-    var writer: ShuffleWriter[Any, Any] = null
-    try {
-      val manager = SparkEnv.get.shuffleManager
-      writer = manager.getWriter[Any, Any](dep.shuffleHandle, partitionId, context)
-      writer.write(rdd.iterator(partition, context).asInstanceOf[Iterator[_ <: Product2[Any, Any]]])
-      return writer.stop(success = true).get
-    } catch {
-      case e: Exception =>
-        if (writer != null) {
-          writer.stop(success = false)
-        }
-        throw e
-    } finally {
-      context.markTaskCompleted()
-    }
-  }
+	metrics = Some(context.taskMetrics)
+	var writer: ShuffleWriter[Any, Any] = null
+	try {
+	  val manager = SparkEnv.get.shuffleManager
+	  writer = manager.getWriter[Any, Any](dep.shuffleHandle, partitionId, context)
+	  writer.write(rdd.iterator(partition, context).asInstanceOf[Iterator[_ <: Product2[Any, Any]]])
+	  return writer.stop(success = true).get
+	} catch {
+	  case e: Exception =>
+	    if (writer != null) {
+	      writer.stop(success = false)
+	    }
+	    throw e
+	} finally {
+	  context.markTaskCompleted()
+	}
+}
+```
 
 The `manager` in above code refers to the `ShuffleBlockManager` defined in the following file.
 	  
 **File**: `/core/src/main/scala/org/apache/spark/storage/ShuffleBlockManager.scala`
 
-
+```scala
     def forMapTask(shuffleId: Int, mapId: Int, numBuckets: Int, serializer: Serializer,
       writeMetrics: ShuffleWriteMetrics) = {
     new ShuffleWriterGroup {
@@ -119,6 +122,7 @@ The `manager` in above code refers to the `ShuffleBlockManager` defined in the f
       }
   ...
   }
+```
 
 Here is the definition of data block ID: `val blockId = ShuffleBlockId(shuffleId, mapId, bucketId)`. It's made up of `shuffleId`, `mapId`, and `bucketId`. 
 
@@ -130,6 +134,7 @@ Here is the definition of data block ID: `val blockId = ShuffleBlockId(shuffleId
 
 The write method will be called on an executor, and the result blocks of a map task will be put into local disk. Therefore, here we can obtain **location** (_i.e._, executor location) and **size** of intermediate data for a specific Stage before a shuffle takes place.
 
+```scala
 	/** Write a bunch of records to this task's output */
 	override def write(records: Iterator[_ <: Product2[K, V]]) = {
 	 val iter = if (dep.aggregator.isDefined) {
@@ -149,11 +154,13 @@ The write method will be called on an executor, and the result blocks of a map t
 	   shuffle.writers(bucketId).write(elem)
 	 }
 	}
+```
 
 The `shuffle.writers(bucketId)` is a writer object initiated from the following class:
 
 **File**: `/core/src/main/scala/org/apache/spark/storage/BlockObjectWriter.scala`
 
+```scala
 	private[spark] class DiskBlockObjectWriter(
 	    blockId: BlockId,
 	    file: File,
@@ -175,6 +182,7 @@ The `shuffle.writers(bucketId)` is a writer object initiated from the following 
 	    override def close() = out.close()
 	    override def flush() = out.flush()
 	  }
+```
 
 A detailed blog on Spark Shuffle is [here](https://github.com/JerryLead/SparkInternals/blob/master/markdown/4-shuffleDetails.md). I also posted an unfinished blog on Shuffle. Please click [here](http://www.haow.ca/blog/2014/07/16/shuffle-in-spark/) if you are interested.
 
@@ -184,6 +192,7 @@ A detailed blog on Spark Shuffle is [here](https://github.com/JerryLead/SparkInt
 
 In this file, a Shuffle ID is generated when a RDD calls a transformation which creates shuffle dependency between RDDs, _e.g._, `reduceByKey`.
 
+```scala
 	class ShuffleDependency[K, V, C](
 	    @transient _rdd: RDD[_ <: Product2[K, V]],
 	    val partitioner: Partitioner,
@@ -202,6 +211,7 @@ In this file, a Shuffle ID is generated when a RDD calls a transformation which 
 	
 	  _rdd.sparkContext.cleaner.foreach(_.registerShuffleForCleanup(this))
 	}
+```
 
 `val shuffleId: Int = _rdd.context.newShuffleId()` generates a new Shuffle ID.
 
@@ -214,6 +224,7 @@ After the parent Stages are finished, the child Stage is ready to launch. Then t
 
 **File**: `/core/src/main/scala/org/apache/spark/scheduler/DAGScheduler.scala'
 
+```scala
     val tasks: Seq[Task[_]] = if (stage.isShuffleMap) {
       partitionsToCompute.map { id =>
         val locs = getPreferredLocs(stage.rdd, id)
@@ -229,6 +240,7 @@ After the parent Stages are finished, the child Stage is ready to launch. Then t
         new ResultTask(stage.id, taskBinary, part, locs, id)
       }
     }
+ ```
 
 For the Shuffle read phase or reduce phase, tasks are `ResultTask`, _i.e._, `ResultTask(stage.id, taskBinary, part, locs, id)`. Thus, `part.index` is the `reduceId`. How to find the connection between `part.index` and `reduceId` is a long deduction chain.
 
