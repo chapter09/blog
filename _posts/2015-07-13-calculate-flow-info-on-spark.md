@@ -25,7 +25,7 @@ First, to record the DAG or Stage dependencies, claim a HashMap at the head of t
 
 Insert the `jobAnalysis` method in `handleJobSubmitted` method.
 
-<pre><code class="scala">
+```scala
 /** Job Analysis, output stages */
 +  private def jobAnalysis(stage: Stage) {
 +
@@ -47,7 +47,7 @@ Insert the `jobAnalysis` method in `handleJobSubmitted` method.
 +    wrapper(stage, stage)
 +    logInfo("--->JobDep: " + stageDep.toString)
 +  }
-</code></pre>
+```
 
 Everytime when DAGScheduler submits a new Stage, the `handleJobSubmitted` will be called. Then by analyzing the dependencies of the newly submitted Stage, `jobAnalysis` constructs the full DAG for current job. 
 
