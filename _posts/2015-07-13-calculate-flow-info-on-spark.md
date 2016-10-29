@@ -21,7 +21,7 @@ Spark version 1.0.0
 First, to record the DAG or Stage dependencies, claim a HashMap at the head of the file.
 
 ```scala
-	+  private[scheduler] val stageDep = new HashMap[Stage, Stage]
++  private[scheduler] val stageDep = new HashMap[Stage, Stage]
 ```
 
 Insert the `jobAnalysis` method in `handleJobSubmitted` method.
