@@ -14,7 +14,7 @@ Hao WANG, 12 July, 2015
 
 Spark version 1.0.0
 
-####1. To construct the full DAG
+#### 1. To construct the full DAG
 
 **File**: `/core/src/main/scala/org/apache/spark/scheduler/DAGScheduler.scala`
 
@@ -52,7 +52,7 @@ Insert the `jobAnalysis` method in `handleJobSubmitted` method.
 Everytime when DAGScheduler submits a new Stage, the `handleJobSubmitted` will be called. Then by analyzing the dependencies of the newly submitted Stage, `jobAnalysis` constructs the full DAG for current job. 
 
 
-####2. Data Partition ID, size and location
+#### 2. Data Partition ID, size and location
 
 **File**: `/core/src/main/scala/org/apache/spark/scheduler/ShuffleMapTask.scala`
 
@@ -178,7 +178,7 @@ The `shuffle.writers(bucketId)` is a writer object initiated from the following 
 
 A detailed blog on Spark Shuffle is [here](https://github.com/JerryLead/SparkInternals/blob/master/markdown/4-shuffleDetails.md). I also posted an unfinished blog on Shuffle. Please click [here](http://www.haow.ca/blog/2014/07/16/shuffle-in-spark/) if you are interested.
 
-####3. Shuffle ID
+#### 3. Shuffle ID
 
 **File**: `/core/src/main/scala/org/apache/spark/Dependency.scala`
 
@@ -208,7 +208,7 @@ In this file, a Shuffle ID is generated when a RDD calls a transformation which 
 Shuffle ID identify the dependency between two Stages. The child Stage will fetch data from its parent Stages according to the Shuffle ID. Thus, by looking up the Shuffle ID, we are able to locate the group of data blocks on workers.
 
 
-###4. Task Assignment
+#### 4. Task Assignment
 
 After the parent Stages are finished, the child Stage is ready to launch. Then tasks in this child Stage will be assigned to each worker. A task is a capsule which can be executed independently, including all the information the worker needs to run, _e.g._, `reduceId`.
 
@@ -237,7 +237,7 @@ Here is a brief description:
 DAGScheduluer (_generate ResultTasks, assign **partition**_) --> executor (_run ResultTasks_) --> ResultTask (_run func_) --> ShuffledRDD.compute (_start fetching data_) --> BlockStoreShuffleFetcher.fetch (_fetch data according to **reduceId**_)
 
 
-###5. Calculation
+#### 5. Calculation
 
 * Section 1: full DAG, the Stage ID and dependencies between Stages. 
 * Section 2: the location, size of data partitions from finished Stages.
