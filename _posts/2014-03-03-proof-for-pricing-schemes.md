@@ -12,7 +12,7 @@ Now, the customer's utility is:
 
 $$       U(d,p) = f(d) - pd    \quad\quad\quad(1)$$
 
-if the operator charges a fee $p$ for each unit of demands. And the operator's utility is:
+if the operator charges a fee $$p$$ for each unit of demands. And the operator's utility is:
 
 $$       V(d,p) = pd - vg(d)   \quad\quad\quad(2)$$
 
