@@ -6,7 +6,7 @@ categories:
 tags: []
 ---
 
-###环境
+### 环境
 
 * Spark 1.0.0 []Standalone Mode]
 * Hadoop 2.2.0
@@ -14,7 +14,7 @@ tags: []
 * jdk1.7.0_25
 
 
-###问题一
+### 问题一
 
 我将example.bagel下面的`WikipediaPageRank`拿出来，根据Spark Quick Start的Standalone Applications，把WikipediaPageRank独立成IntelliJ的project。
 
@@ -44,7 +44,7 @@ tags: []
 	sc.addJar("target/scala-2.10/wikipagerank_2.10-1.0.jar")
 
 
-###问题二
+### 问题二
 另一个问题比较naive了。忘记在Application的build.bst里面加hadoop相关的依赖了。
 
 我是用Scala的，所以应该是加上：
