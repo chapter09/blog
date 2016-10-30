@@ -14,7 +14,7 @@ tags:
 
 同学Thinkpad E40配置到是Realtek 8192ce到无线网卡，自己装好Ubuntu后，无线网卡无法识别。
 
-用ifconfig -a只能得到eth0 和 lo 两个接口，所以判断是驱动没有起来。
+用`ifconfig -a`只能得到`eth0` 和 `lo` 两个接口，所以判断是驱动没有起来。
 
 同时同学自己通过ubuntu本身的Additional Drivers得到到驱动是无法使用到，所以卸掉。
 

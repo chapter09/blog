@@ -32,4 +32,4 @@ uTorrent这边今天发现可以在Linux下使用了，不太麻烦也不太方�
 	
   4. 然后就可以像在Win下一样了
 
-[![](blog/img/uploads/2011/09/Screenshot.png)](blog/img/uploads/2011/09/Screenshot.png)
+[![](/blog/img/uploads/2011/09/Screenshot.png)](/blog/img/uploads/2011/09/Screenshot.png)

@@ -41,4 +41,4 @@ categories:
 
 
 
-[![](blog/img/uploads/2011/08/picplz-2011-08-11-19.48.32-300x168.jpg)](blog/img/uploads/2011/08/picplz-2011-08-11-19.48.32.jpg)
+[![](/blog/img/uploads/2011/08/picplz-2011-08-11-19.48.32-300x168.jpg)](/blog/img/uploads/2011/08/picplz-2011-08-11-19.48.32.jpg)
