@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [1. To construct the full DAG](#1-to-construct-the-full-dag)
+- [2. Data Partition ID, size and location](#2-data-partition-id-size-and-location)
+- [3. Shuffle ID](#3-shuffle-id)
+- [4. Task Assignment](#4-task-assignment)
+- [5. Calculation](#5-calculation)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ---
 layout: post
 title: "Calculate Flow info. on Spark"

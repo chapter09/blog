@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [1. Pi 3 connecting to a Bluetooth Speaker](#1-pi-3-connecting-to-a-bluetooth-speaker)
+- [2. Install AirPlay on Pi 3](#2-install-airplay-on-pi-3)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ---
 layout: post
 title: "Raspberry Pi 3 + Bose Mini SoundLink + AirPlay"
