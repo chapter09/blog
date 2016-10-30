@@ -46,6 +46,19 @@ Launch `pulseaudio` by run:
 pulseaudio -D
 ```
 
+and then connect to the SoundLink via Bluetooth via `bluetoothctl`:
+
+```bash
+❯ bluetoothctl
+[bluetooth]# agent on
+[bluetooth]# scan on
+[NEW] Device xx:xx:xx:xx:xx:xx Bose Mini SoundLink
+[bluetooth]# trust xx:xx:xx:xx:xx:xx
+[bluetooth]# connect xx:xx:xx:xx:xx:xx
+Attempting to connect to xx:xx:xx:xx:xx:xx
+[CHG] Device xx:xx:xx:xx:xx:xx Connected: yes
+Connection successful
+```
 
 ### 2. Install AirPlay on Pi 3
 
