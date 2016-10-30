@@ -19,7 +19,9 @@ devices <---AirPlay---> Pi 3 <---Bluetooth---> SoundLink
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [1. Pi 3 connecting to a Bluetooth Speaker](#1-pi-3-connecting-to-a-bluetooth-speaker)
-- [2. Install AirPlay on Pi 3](#2-install-airplay-on-pi-3)
+- [2. Install AirPlay (shairport-sync) on Pi 3](#2-install-airplay-shairport-sync-on-pi-3)
+- [3. Config the sound source/sink on `pulseaudio`](#3-config-the-sound-sourcesink-on-pulseaudio)
+- [4. Conclusion](#4-conclusion)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -60,7 +62,27 @@ Attempting to connect to xx:xx:xx:xx:xx:xx
 Connection successful
 ```
 
-### 2. Install AirPlay on Pi 3
+Now we have Pi 3 connected to the SoundLink.
+
+### 2. Install AirPlay (shairport-sync) on Pi 3
+
+
+
+
+### 3. Config the sound source/sink on `pulseaudio`
+
+
+
+
+
+### 4. Conclusion
+
+
+
+
+
+
+
 
 
 
