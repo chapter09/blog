@@ -36,4 +36,4 @@ tags: [Python]
 	
 {% endhighlight %}
 
-![](/img/uploads/2013/07/django-dropdown.png)
+![](blog/img/uploads/2013/07/django-dropdown.png)
