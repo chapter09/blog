@@ -66,7 +66,23 @@ Now we have Pi 3 connected to the SoundLink.
 
 ### 2. Install AirPlay (shairport-sync) on Pi 3
 
+We deploy a open source AirPlay service ([shairport-sync](https://github.com/mikebrady/shairport-sync))on Pi 3. 
 
+The while installation is very easy, please refer to its documents on GitHub.
+
+Some threads talking about what is the best implementation of AirPlay on Pi 3 can be found [here] (https://www.raspberrypi.org/forums/viewtopic.php?f=35&t=124122). [shairport-sync](https://github.com/mikebrady/shairport-sync) is the best. I tried [shairport], which has quite a lot of clutters in sound and has been out of maintainence for a long time.
+
+Another error I have met is:
+```
+Error: ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+```
+
+To walk around, modify `/usr/share/alsa/alsa.conf`.
+
+```
+132 pcm.front cards.pcm.default
+133 # pcm.front cards.pcm.front
+```
 
 
 ### 3. Config the sound source/sink on `pulseaudio`
