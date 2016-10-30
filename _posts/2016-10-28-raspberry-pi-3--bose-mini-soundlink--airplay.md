@@ -68,7 +68,7 @@ Now we have Pi 3 connected to the SoundLink.
 
 We deploy an open source AirPlay service ([shairport-sync](https://github.com/mikebrady/shairport-sync)) on Pi 3. 
 
-The while installation is very easy, please refer to its documents on GitHub.
+The whole installation is very easy, please refer to its documents on GitHub.
 
 Some threads talking about what is the best implementation of AirPlay on Pi 3 can be found [here] (https://www.raspberrypi.org/forums/viewtopic.php?f=35&t=124122). [shairport-sync](https://github.com/mikebrady/shairport-sync) is the best. I tried [shairport], which has quite a lot of clutters in sound and has been out of maintainence for a long time.
 
