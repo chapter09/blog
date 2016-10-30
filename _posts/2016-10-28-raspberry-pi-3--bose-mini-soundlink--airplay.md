@@ -77,19 +77,24 @@ Another error I have met is:
 Error: ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
 ```
 
-To walk around, modify `/usr/share/alsa/alsa.conf`.
+To walk around, modify `/usr/share/alsa/alsa.conf` as follows:
 
 ```
-132 pcm.front cards.pcm.default
-133 # pcm.front cards.pcm.front
+pcm.front cards.pcm.default
+# pcm.front cards.pcm.front
 ```
+
+[Here](https://gist.github.com/chapter09/a9513640035b754813c0bb4e240f6f66) is my `shairport-sync` configuration file.
 
 
 ### 3. Config the sound source/sink on `pulseaudio`
 
+Set `pulseaudio` sink to the Bluetooth device --- the SoundLink:
 
-
-
+```
+pacmd list-sinks
+pacmd set-default-sink bluez_sink.xx_xx_xx_xx_xx_xx
+```
 
 ### 4. Conclusion
 
