@@ -100,7 +100,7 @@ pacmd set-default-sink bluez_sink.xx_xx_xx_xx_xx_xx
 
 When all aboves are settled down, you could have:
 
-![demo](https://i.imgsafe.org/5930cdae4b.png)
+![demo](https://i.imgsafe.org/5930cdae4b.png =0.5x)
 
 
 
