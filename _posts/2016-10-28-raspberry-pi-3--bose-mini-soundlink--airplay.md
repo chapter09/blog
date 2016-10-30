@@ -66,7 +66,7 @@ Now we have Pi 3 connected to the SoundLink.
 
 ### 2. Install AirPlay (shairport-sync) on Pi 3
 
-We deploy a open source AirPlay service ([shairport-sync](https://github.com/mikebrady/shairport-sync))on Pi 3. 
+We deploy an open source AirPlay service ([shairport-sync](https://github.com/mikebrady/shairport-sync)) on Pi 3. 
 
 The while installation is very easy, please refer to its documents on GitHub.
 
