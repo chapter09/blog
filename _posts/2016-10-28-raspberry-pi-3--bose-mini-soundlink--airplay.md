@@ -84,7 +84,7 @@ pcm.front cards.pcm.default
 # pcm.front cards.pcm.front
 ```
 
-[Here](https://gist.github.com/chapter09/a9513640035b754813c0bb4e240f6f66) is my `shairport-sync` configuration file.
+Furthermore, [Here](https://gist.github.com/chapter09/a9513640035b754813c0bb4e240f6f66) is my `shairport-sync` configuration file.
 
 
 ### 3. Config the sound source/sink on `pulseaudio`
@@ -98,6 +98,9 @@ pacmd set-default-sink bluez_sink.xx_xx_xx_xx_xx_xx
 
 ### 4. Conclusion
 
+When all aboves are settled down, you could have:
+
+![demo](https://i.imgsafe.org/5930cdae4b.png)
 
 
 
