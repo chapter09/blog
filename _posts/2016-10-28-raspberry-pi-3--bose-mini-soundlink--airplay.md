@@ -27,7 +27,7 @@ devices <---AirPlay---> Pi 3 <---Bluetooth---> SoundLink
 
 First of all, upgrade the OS of Pi 3 to the latest:
 
-```
+```bash
 sudo apt-get update
 sudo apt-get dist-upgrade
 sudo rpi-update
@@ -35,9 +35,15 @@ sudo rpi-update
 
 Then, install Bluetooth and audio drivers:
 
-```
+```bash
 sudo apt-get install pi-bluetooth blueman
 sudo apt-get install pulseaudio pavucontrol pulseaudio-module-bluetooth
+```
+
+Launch `pulseaudio` by run:
+
+```bash
+pulseaudio -D
 ```
 
 
