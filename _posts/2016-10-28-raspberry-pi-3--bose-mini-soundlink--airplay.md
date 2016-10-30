@@ -14,5 +14,23 @@ Fortunately, I have a Raspberry Pi 3, which is equipped with both Wi-Fi and Blue
 devices <---AirPlay---> Pi 3 <---Bluetooth---> SoundLink
 ```
 
+### 1. Pi 3 connecting to a Bluetooth Speaker
+
+First of all, upgrade the OS of Pi 3 to the latest:
+```
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo rpi-update
+```
+
+Then, install Bluetooth and audio drivers:
+```
+sudo apt-get install pi-bluetooth blueman
+sudo apt-get install pulseaudio pavucontrol pulseaudio-module-bluetooth
+```
+
+
+### 2. Install AirPlay on Pi 3
+
 
 
