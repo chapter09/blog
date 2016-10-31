@@ -50,3 +50,20 @@ $ ./build/sbt -Pyarn -Phadoop-2.7 -Dhadoop.version=2.7.3 -Dscala-2.11 -Phive -Ph
 ....
 > package
 ```
+
+Enter the incremental compilation mode:
+
+```bash
+$ ./build/sbt -Pyarn -Phadoop-2.7 -Dhadoop.version=2.7.3 -Dscala-2.11 -Phive -Phive-thriftserver -DskipTests
+> ~compile
+```
+
+To launch Spark from the seperated jar, we have to set the env viarable:
+
+```bash
+$ export SPARK_PREPEND_CLASSES=true
+``` 
+
+
+
+
