@@ -15,7 +15,7 @@ tags: []
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Building Apache Spark from source code is nevey a time-saving job. Either `mvn` or `sbt` consumes quite a lot time in compilation. To this end, __incremental compilation__ or __continuous compilation__ will be the saver.
+Building Apache Spark from source code is never a time-saving job. Either `mvn` or `sbt` consumes quite a lot time in compilation. To this end, __incremental compilation__ or __continuous compilation__ will be the saver.
 
 #### 1. `sbt`
 
