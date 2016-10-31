@@ -12,5 +12,35 @@ It is recommended in Spark official documents that `sbt` is more suitable for da
 
 > But SBT is supported for day-to-day development since it can provide much faster iterative compilation. 
 
+The first step is to create a fat jar, which includes all of Spark's dependencies:
+
+```bash
+./build/sbt -Pyarn -Phadoop-2.7 -Dhadoop.version=2.7.3 -Dscala-2.11 -Phive -Phive-thriftserver -DskipTests assembly 
+```
+
+We will have a large jar file like this:
+
+```bash
+$ ls -hl assembly/target/scala-2.11
+total 184M
+-rw-rw-r-- 1 ubuntu ubuntu 184M Oct 31 15:28 spark-assembly-1.6.1-hadoop2.7.3.jar
+```
+
+Then create a seperated jar package for Spark itself:
+./build/sbt -Pyarn -Phadoop-2.7 -Dhadoop.version=2.7.3 -Dscala-2.11 -Phive -Phive-thriftserver -DskipTests package
+```bash
+
+```
 
 
+
+
+
+Or in an interactive way:
+
+```bash
+$ ./build/sbt -Pyarn -Phadoop-2.7 -Dhadoop.version=2.7.3 -Dscala-2.11 -Phive -Phive-thriftserver -DskipTests
+> assembly 
+....
+> package
+```
