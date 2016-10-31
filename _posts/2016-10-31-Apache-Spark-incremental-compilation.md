@@ -6,6 +6,15 @@ categories:
 tags: []
 ---
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [1. `sbt`](#1-sbt)
+- [2. `mvn`](#2-mvn)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Building Apache Spark from source code is nevey a time-saving job. Either `mvn` or `sbt` consumes quite a lot time in compilation. To this end, __incremental compilation__ or __continuous compilation__ will be the saver.
 
 #### 1. `sbt`
