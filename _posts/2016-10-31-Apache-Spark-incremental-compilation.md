@@ -26,15 +26,21 @@ total 184M
 -rw-rw-r-- 1 ubuntu ubuntu 184M Oct 31 15:28 spark-assembly-1.6.1-hadoop2.7.3.jar
 ```
 
-Then create a seperated jar package for Spark itself:
-./build/sbt -Pyarn -Phadoop-2.7 -Dhadoop.version=2.7.3 -Dscala-2.11 -Phive -Phive-thriftserver -DskipTests package
-```bash
+Then create a seperated jar package for Spark itself, and incremental compilation will be conducted on this jar.
 
+```bash
+./build/sbt -Pyarn -Phadoop-2.7 -Dhadoop.version=2.7.3 -Dscala-2.11 -Phive -Phive-thriftserver -DskipTests package
 ```
 
+Then we will have:
 
-
-
+```bash
+~/spark-1.6.1
+❯ ls -hl assembly/target/scala-2.11
+total 184M
+-rw-rw-r-- 1 ubuntu ubuntu 184M Oct 31 15:28 spark-assembly-1.6.1-hadoop2.7.3.jar
+-rw-rw-r-- 1 ubuntu ubuntu  281 Oct 31 15:42 spark-assembly_2.11-1.6.1.jar
+```
 
 Or in an interactive way:
 
