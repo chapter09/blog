@@ -17,8 +17,17 @@ libraryDependencies ++= Seq(
     "net.debasishg" %% "redisclient" % "3.2"
 )
 ```
+What the dependency should be like in `core/pom.xml`?
 
+We should first match the version of `scala`, and the version of the dependency library:
 
+```xml
+<!-- https://mvnrepository.com/artifact/net.debasishg/redisclient_2.11 -->
+<dependency>
+    <groupId>net.debasishg</groupId>
+    <artifactId>redisclient_2.11</artifactId>
+    <version>3.2</version>
+</dependency>
+```
 
-
-https://mvnrepository.com/artifact/net.debasishg/redisclient_2.11/3.2
+The Maven repo site is helpful, [https://mvnrepository.com/artifact/net.debasishg/redisclient_2.11/3.2](https://mvnrepository.com/artifact/net.debasishg/redisclient_2.11/3.2)
