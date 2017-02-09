@@ -7,41 +7,36 @@ tags: []
 ---
 
 
-The length of a C string is determined by the terminating null-character: A C string is as long as the number of characters between the beginning of the string and the terminating null character (without including the terminating null character itself).
+The length of a C string is determined by the terminating __null-character__: A C string is as long as the number of characters between the beginning of the string and the terminating null character (without including the terminating null character itself).
 
-`sizeof()`
+`sizeof()` returns size in bytes of the object representation of type.
 
+`strlen()` returns the length of the given byte string, that is, the number of characters in a character array whose first element is pointed to by str up to and not including the first __null character__. _The behavior is undefined if there is no null character in the character array pointed to by str_.
 
-`strlen()`
-
-
-`length()` and `size()` 
+`length()` and `size()` returns the number of `char` elements in `string`.
 
 
 ```cpp
- // Example program 1
- #include <iostream>
- #include <string>
- #include <string.h>
- using namespace std;
+// Example program 1
+#include <iostream>
+#include <string>
+#include <string.h>
+using namespace std;
 
- int main()
- {
-   char x[3] = {'a', 'b', 'c'};
-   cout << x << endl;
-   return 0;
- }
+int main() {
+  char x[3] = {'a', 'b', 'c'};
+  cout << x << endl;
+  return 0;
+}
 ```
 
-If we don't clare 
-
-Output:
+If we don't declare more variables after `char x[3]` on the stack, we will visit beyond memory boundary when we call `cout`. This illegal memory access leads to output like this:
 
 ```shell
 abc��
 ```
 
-If I 
+We have another example.
 
 ```cpp
 // Example program 2
@@ -50,8 +45,7 @@ If I
 #include <string.h>
 using namespace std;
 
-int main()
-{
+int main() {
   char x[3] = {'a', 'b', 'c'};
   char new_x[] = {'a', 'b', 'c', '\0'};
   string y = (string) x;
@@ -65,6 +59,7 @@ int main()
   cout << "y.size() y.length(): " << y.size() << " " << y.length() << endl;
   cout << "sizeof(y): " << sizeof(y) << endl;
   cout << "sizeof(z): " << sizeof(z) << endl;
+  cout << "sizeof(x[0]): " << sizeof(x[0]) << endl
   cout << "strlen(z): " << strlen(z) << endl;
 
   return 0;
@@ -79,7 +74,8 @@ strlen(x): 3
 strlen(new_x): 3
 sizeof(new_x): 4
 y.size() y.length(): 3 3
-sizeof(y): 8
-sizeof(z): 8
+sizeof(y): 8 		// the size of pointer in byte
+sizeof(z): 8 		// the size of pointer in byte
+sizeof(x[0]): 1 	// the size of char in byte
 strlen(z): 3
 ```
