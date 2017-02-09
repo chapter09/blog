@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cpp string, char [], char *, and '\0'"
+title: "Cpp string, char [], char *, and null character"
 description: ""
 categories: 
 tags: []
@@ -32,6 +32,8 @@ The length of a C string is determined by the terminating null-character: A C st
    return 0;
  }
 ```
+
+If we don't clare 
 
 Output:
 
