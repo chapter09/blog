@@ -63,7 +63,9 @@ int main() {
   cout << "strlen(z): " << strlen(z) << endl;
   
   cout << "addr of char [] " << &x << endl;
-  cout << "addr of x[0] " << (void*) &x[0] << endl;
+  // Casting &x[0] to void* enforces cout print out the memory address, 
+  // rather than the string, which is implicated by the type char*
+  cout << "addr of x[0] " << (void*) &x[0] << endl; 
   cout << "addr of x[0] " << (char*) &x[0] << endl;
 
   return 0;
