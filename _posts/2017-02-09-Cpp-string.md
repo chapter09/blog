@@ -61,6 +61,10 @@ int main() {
   cout << "sizeof(z): " << sizeof(z) << endl;
   cout << "sizeof(x[0]): " << sizeof(x[0]) << endl
   cout << "strlen(z): " << strlen(z) << endl;
+  
+  cout << "addr of char [] " << &x << endl;
+  cout << "addr of x[0] " << (void*) &x[0] << endl;
+  cout << "addr of x[0] " << (char*) &x[0] << endl;
 
   return 0;
 }
@@ -78,4 +82,7 @@ sizeof(y): 8 		// the size of pointer in byte
 sizeof(z): 8 		// the size of pointer in byte
 sizeof(x[0]): 1 	// the size of char in byte
 strlen(z): 3
+addr of char [] 0x7fffbf9db420
+addr of x[0] 0x7fffbf9db420
+addr of x[0] abc
 ```
