@@ -29,4 +29,4 @@ with codecs.open(CSV_FILE, 'r', encoding='utf-8') as csvfile:
 
 The error is `UnicodeEncodeError`, which says "__'ascii' codec can't encode character '\u0329' in position 34: ordinal not in range(128)__"
 
-##### Solution:
+#### Solution:
