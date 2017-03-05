@@ -3,6 +3,7 @@ layout: post
 title: "French character in Python 3 [Foolish Me]"
 description: ""
 layout: post
+comments: true
 categories: 
 tags: []
 ---
