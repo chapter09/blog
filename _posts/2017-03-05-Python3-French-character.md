@@ -16,6 +16,8 @@ Olivier,Bonaventure,Olivier.Bonaventure@uclouvain.be,Universit̩ catholique de L
 The processing script is as follows:
 
 ```python
+#!/usr/bin/python3.5
+
 with codecs.open(CSV_FILE, 'r', encoding='utf-8') as csvfile:
     csv_reader = csv.reader(csvfile, delimiter=',')
     for i, row in enumerate(csv_reader):
