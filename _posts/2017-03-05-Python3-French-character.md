@@ -2,6 +2,7 @@
 layout: post
 title: "French character in Python 3 [Foolish Me]"
 description: ""
+layout: post
 categories: 
 tags: []
 ---
@@ -42,7 +43,7 @@ print(bytes(row[3], encoding='utf-8'))
 print(row[3].encode('utf-8').decode('utf-8'))
 ```
 
-The error remained after I ran the script in Sublime. It might be resulted from my incorrect configuration of Sublime's build system for Python 3. This guess was verified after I successfuly executed in iTerm.
+The error remained after I ran the script in Sublime. __It might be resulted from my incorrect configuration of Sublime's build system for Python 3__. This guess was verified after I successfuly executed in iTerm.
 
 With modification on Python 3 build system like below:
 
