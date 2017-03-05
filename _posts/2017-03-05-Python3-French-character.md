@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "French character processing in Python 3 [Foolish Me]"
+title: "French character in Python 3 [Foolish Me]"
 description: ""
 categories: 
 tags: []
