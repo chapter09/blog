@@ -100,7 +100,9 @@ pacmd set-default-sink bluez_sink.xx_xx_xx_xx_xx_xx
 
 When all aboves are settled down, you could have:
 
+<center>
 <img src="https://i.imgsafe.org/5930cdae4b.png" alt="demo" style="width: 50%;"/>
+</center>
 
 
 
