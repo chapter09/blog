@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""No such file or directory" even though the executable is there"
+title: "\"No such file or directory\" even though the executable is there"
 description: ""
 layout: post
 comments: true
@@ -11,7 +11,7 @@ tags: []
 #### Problem:
 
 
-```
+```shell
 ~/ECE353/blitz/bin
 ❯ ls
 asm  blitz  check  diskUtil  dumpObj  endian  Hello  hexdump  kpl  lddd
