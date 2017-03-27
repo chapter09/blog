@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "\"No such file or directory\" even though the executable is there"
+title: "No such file or directory even though the executable is there"
 description: ""
 layout: post
 comments: true
